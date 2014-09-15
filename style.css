@@ -5,7 +5,7 @@ Sprout
 body{
   padding-top: 20px;
   padding-bottom: 100px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 18px;
   color:#222;
 }
@@ -23,7 +23,7 @@ section{
 }
 
 .container{
-  max-width: 700px; /*This slims out the container of the site*/
+  max-width: 960px; /*This slims out the container of the site*/
 }
 
 h3{
@@ -48,6 +48,52 @@ h6{
   margin:0 0 7px 0;
   text-transform: uppercase;
 }
+
+/*jumbotron*/
+
+.jumbotron {
+	height: 600px;
+	background: url(img/graphics/SPEC-jumbotron.jpg) no-repeat center center;
+	background-size:cover;
+	padding-top: 200px;
+}
+
+.jumbotron .container {
+	max-width: 960px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+}
+
+.jumbotron p {
+	color: #fff;
+}
+
+/*navbar*/
+
+.navbar-default {
+  background-color: #fff;
+  border-color: none;
+}
+
+.navbar {
+  min-height: 80px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+/*projects*/
+
+.thumbnail .caption h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.thumbnail .caption p {
+  font-size: 13px;
+}
+
 
 
 #head{
@@ -82,7 +128,7 @@ h6{
 }
 
 
-
+/*rollover
 
 .example{
   background: #fff;
@@ -94,6 +140,8 @@ h6{
 .example:hover{
   background: #ffb7ea;
 }
+
+*/
 
 
 
