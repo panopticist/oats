@@ -1,8 +1,12 @@
 
+<section id="projects">
 <div class="container">
+
+	<h1>Projects</h1>
+
 	<div class="row">
 
-	  <div class="col-sm-6 col-md-3">
+	  <div class="col-xs-12 col-sm-6 col-md-3">
 	    <div class="thumbnail">
 	      <img src="http://placehold.it/400x300">
 	      <div class="caption">
@@ -48,3 +52,4 @@
 
 	</div>
 </div>
+</section>

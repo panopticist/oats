@@ -19,7 +19,7 @@ a:hover{
 }
 
 section{
-  padding:50px 0;
+  padding:20px 0;
 }
 
 .container{
@@ -56,6 +56,7 @@ h6{
 	background: url(img/graphics/SPEC-jumbotron.jpg) no-repeat center center;
 	background-size:cover;
 	padding-top: 200px;
+	margin-bottom: 0;
 }
 
 .jumbotron .container {
@@ -94,6 +95,14 @@ h6{
   font-size: 13px;
 }
 
+#projects {
+	background-color:#c2c2c2;
+}
+
+#projects h1 {
+	line-height: 1.1em;
+	margin-bottom: 24px;
+}
 
 
 #head{
