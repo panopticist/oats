@@ -17,5 +17,8 @@
 	<script type='text/javascript' src='js/bootstrap.min.js?v=<?php echo V; ?>'></script>
 	<script type='text/javascript' src='js/common.js?v=<?php echo V; ?>'></script>
 
+	<script src="//use.typekit.net/yfy7fjl.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
 </body>
 </html>
