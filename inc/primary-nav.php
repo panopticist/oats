@@ -17,24 +17,26 @@
       
       <ul class="nav nav-pills navbar">
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">What We Do <span class="caret"></span></a>
+       <li><a href="mission.php">Mission</a></li>
+
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Senior Planet</a></li>
-		        <li><a href="#">Case Studies</a></li>
+            <li><a href="programs.php">Programs</a></li>
+            <li><a href="client-projects.php">Client Projects</a></li>
+		        <li><a href="white-papers.php">White Papers</a></li>
           </ul>
         </li>
 
+      <li><a href="services.php">Services</a></li>
+
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">People <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Board</a></li>
-            <li><a href="#">In-Kind Donors</a></li>
-            <li><a href="#">Funders</a></li>
-            <li><a href="#">Sponsors</a></li>
-            <li><a href="#">Program Sites</a></li>
+            <li><a href="team.php">Team</a></li>
+            <li><a href="board.php">Board</a></li>
+            <li><a href="in-kind-donors.php">In-Kind Donors</a></li>
+            <li><a href="funders-and-sponsors.php">Funders &amp; Sponsors</a></li>
           </ul>
         </li>
 
@@ -42,7 +44,7 @@
 
         <li><a href="#">Contact Us</a></li>
 
-        <li><a href="#">Donate</a></li>
+        <li><a href="#">Get Involved</a></li>
 
 
       </ul>

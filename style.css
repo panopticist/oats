@@ -158,9 +158,25 @@ section#page-header h1 {
 	padding-top: 0;
 }
 
+#bio h1 {
+	font-size: 250%;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	margin-top: 6px;
+}
+
+#bio h5 {
+	font-size: 100%;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
 .container.entry img {
-	padding: 0;
+	margin: 10px 0 30px 0;
 	max-width: 100%;
+	border: 1px solid #c2c2c2;
 }
 
 .jumbotron.entry-img {
@@ -172,10 +188,9 @@ section#page-header h1 {
 }
 
 #entry {
-	margin-top: -400px;
-	padding: 20px 30px;
 	background-color: #fff;
 	opacity: 0.9;
+	padding-bottom: 50px;
 }
 
 #entry h1 {
@@ -244,7 +259,6 @@ section#more-case-studies h4 {
 	letter-spacing: 0.1em;
 }
 
-
 .thumbnail .caption p {
   font-size: 16px;
   margin-bottom: 18px;
@@ -259,6 +273,12 @@ section#more-case-studies h4 {
 	margin-bottom: 24px;
 }
 
+/*sidebar*/
+
+#sidebar h4 {
+	color: #54b948;
+	text-transform: uppercase;
+}
 
 /*buttons*/
 
