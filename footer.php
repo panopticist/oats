@@ -14,11 +14,8 @@
 
 	<!-- Le JS -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type='text/javascript' src='js/bootstrap.min.js?v=<?php echo V; ?>'></script>
-	<script type='text/javascript' src='js/common.js?v=<?php echo V; ?>'></script>
-
-	<script src="//use.typekit.net/yfy7fjl.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
+	<script type='text/javascript' src='<?php echo ROOT; ?>/js/bootstrap.min.js?v=<?php echo V; ?>'></script>
+	<script type='text/javascript' src='<?php echo ROOT; ?>/js/common.js?v=<?php echo V; ?>'></script>
 
 </body>
 </html>

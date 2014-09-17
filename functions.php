@@ -5,9 +5,12 @@
 
 
 // Version
-$v = '1';
+$v = '1.1';
 define(V, $v);
 
+// Path to Root dir
+$root = 'http://' . $_SERVER["HTTP_HOST"] . dirname($_SERVER["PHP_SELF"]);
+define(ROOT, $root);
 
 // Include Path
 // All template files go in the /INC/ folder. 
