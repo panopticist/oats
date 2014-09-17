@@ -40,11 +40,11 @@
           </ul>
         </li>
 
-        <li><a href="#">Press</a></li>
+        <li><a href="press.php">Press</a></li>
 
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
 
-        <li><a href="#">Get Involved</a></li>
+        <li><a href="support.php">Support Us</a></li>
 
 
       </ul>

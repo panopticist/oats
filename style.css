@@ -115,12 +115,14 @@ section#page-header {
 	background-color:#0061a2;
 	border-top: 1px solid #5081a1;
 	border-bottom: 1px solid #5081a1;
+	margin-bottom: 30px;
 }
 
-section#page-header h1 {
+section#page-header .container h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
+	margin-bottom: 40px;
 }
 
 /*touts*/

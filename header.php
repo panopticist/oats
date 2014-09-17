@@ -19,6 +19,8 @@
 </head>
 <body>
 
+	<?php echo INC; ?>
+
   <?php include_once('functions.php'); ?>
 
-  <!--<?php include( INC . 'head.php' ); ?>-->
+  <?php // include( INC . 'head.php' ); ?>
