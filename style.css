@@ -18,11 +18,23 @@ a:hover{
 }
 
 section{
-  padding:20px 0;
+  padding:0;
 }
 
 .container{
   max-width: 960px; /*This slims out the container of the site*/
+}
+
+h1 {
+	font-size: 300%;
+	color:#0061a2;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h2 {
+	
 }
 
 h3{
@@ -115,14 +127,14 @@ section#page-header {
 	background-color:#0061a2;
 	border-top: 1px solid #5081a1;
 	border-bottom: 1px solid #5081a1;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-section#page-header .container h1 {
+section#page-header .container h2 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 /*touts*/
@@ -156,11 +168,18 @@ section#page-header .container h1 {
 
 /*content*/
 
+.lead {
+  font-family: 'chaparral pro', serif;
+	line-height: 1.3em;
+	margin-bottom: 25px;
+}
+
 #bio {
 	padding-top: 0;
 }
 
 #bio h1 {
+  color:#0061a2;
 	font-size: 250%;
 	font-weight: 400;
 	letter-spacing: -0.04em;
@@ -196,7 +215,6 @@ section#page-header .container h1 {
 }
 
 #entry h1 {
-  font-family: 'chaparral pro', serif;
 	font-weight: 400;
   font-size: 48px;
   margin-bottom: 12px;

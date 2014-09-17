@@ -4,7 +4,7 @@
 
 <section id="page-header">
 	<div class="container">
-	  <h1>Mission</h1>
+	  <h2>Mission</h2>
 	</div>
 </section>
 
@@ -19,9 +19,26 @@
 		  <div class="col-xs-12">
 
 				<h1><a href="#">The Practice of Change</a></h1>
-					<p>OATS harnesses the power of technology to change the way we age. Since 2004, we&#8217;ve innovated one of the nation's most powerful models to shape the future of aging.</p>
 
-				<img src="img/graphics/Tom-Kamber-Executive-Director_OATS.jpg" alt="Tom Kamber, Executive Director, OATS">
+		  </div>
+	
+	</div>
+
+	<div class="row">
+
+		  <div class="col-xs-12 col-md-10">
+
+					<p class="lead">OATS harnesses the power of technology to change the way we age. Since 2004, we&#8217;ve innovated one of the nation's most powerful models to shape the future of aging.</p>
+
+		  </div>
+	
+	</div>
+
+	<div class="row">
+
+		  <div class="col-xs-12">
+
+	      <img src="http://placehold.it/1200x600">
 
 		  </div>
 	

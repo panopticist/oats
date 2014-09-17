@@ -4,7 +4,7 @@
 
 <section id="page-header">
 	<div class="container">
-	  <h1>Client Projects</h1>
+	  <h2>Client Projects</h2>
 	</div>
 </section>
 
@@ -17,7 +17,17 @@
 
 	  <div class="col-xs-12">
 
-			<p>OATS works with a wide range of mauris vulputate tincidunt velit, quis imperdiet mi tempus et. Donec scelerisque massa id tortor venenatis egestas. Donec sit amet imperdiet massa. Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam.</p>
+			<h1>Headline Lorem Ipsum</h1>
+
+	  </div>
+	
+	</div>
+
+	<div class="row">
+
+	  <div class="col-xs-12 col-md-10">
+
+			<p class="lead">OATS works with a wide range of mauris vulputate tincidunt velit, quis imperdiet mi tempus et. Donec scelerisque massa id tortor venenatis egestas. Donec sit amet imperdiet massa. Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam.</p>
 
 	  </div>
 	
