@@ -1,8 +1,38 @@
+<?php include('header.php'); ?>
+
+<?php include( INC . 'primary-nav.php' ); ?>
+
+<section id="section-hed">
+	<div class="container">
+	  <h2>In-Kind Donors</h2>
+	</div>
+</section>
+
+
 
 <section id="projects">
 <div class="container">
 
-	<p>OATS is grateful for the generous financial and in-kind support provided by the following supporters:</p>
+	<div class="row">
+
+	  <div class="col-xs-12">
+
+			<h1>Headline Lorem Ipsum</h1>
+
+	  </div>
+	
+	</div>
+
+	<div class="row">
+
+	  <div class="col-xs-12 col-md-10">
+
+			<p class="lead">OATS works with a wide range of mauris vulputate tincidunt velit, quis imperdiet mi tempus et. Donec scelerisque massa id tortor venenatis egestas. Donec sit amet imperdiet massa. Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam.</p>
+
+	  </div>
+	
+	</div>
+
 
 	<div class="row">
 
@@ -88,3 +118,8 @@
 	</div>
 </div>
 </section>
+
+
+
+
+<?php include('footer.php'); ?>

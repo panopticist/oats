@@ -8,7 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">OATS</a>
+      <a class="navbar-brand" href="index.php"><img src="img/graphics/oats-logo-blue.svg" width="200" height="auto">
+</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,21 +18,19 @@
       
       <ul class="nav nav-pills navbar">
 
-       <li><a href="mission.php">Mission</a></li>
-
+			<li><a href="services.php">Services</a></li>
+			
        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="programs.php">Programs</a></li>
+            <li><a href="programs.php">Flagship Programs</a></li>
             <li><a href="client-projects.php">Client Projects</a></li>
 		        <li><a href="white-papers.php">White Papers</a></li>
           </ul>
         </li>
 
-      <li><a href="services.php">Services</a></li>
-
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">People <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="team.php">Team</a></li>
             <li><a href="board.php">Board</a></li>
@@ -43,9 +42,6 @@
         <li><a href="press.php">Press</a></li>
 
         <li><a href="contact.php">Contact Us</a></li>
-
-        <li><a href="support.php">Support Us</a></li>
-
 
       </ul>
     </div><!-- /.navbar-collapse -->

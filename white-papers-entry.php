@@ -2,9 +2,9 @@
 
 <?php include( INC . 'primary-nav.php' ); ?>
 
-<section id="page-header">
+<section id="section-hed">
 	<div class="container">
-	  <h1>Client Projects</h1>
+	  <h2>White Papers</h2>
 	</div>
 </section>
 
@@ -15,14 +15,35 @@
 
 		  <div class="col-xs-12">
 
-				<h5>Case Study</h5>
+				<h5>White Paper</h5>
 				<h1>The New York Public Library</h1>
-				
-				<img src="img/graphics/nypl-case-study.jpg" alt="NYPL">
 
 		  </div>
 	
 	</div>
+
+	<div class="row">
+
+		  <div class="col-xs-12 col-md-10">
+
+					<p class="lead">The New York Public Library (NYPL) was providing computer access and training for tens of thousands of senior citizens each year, but lacked age-specific curriculum and methodology to optimize the experience of older library visitors.</p>
+
+		  </div>
+	
+	</div>
+
+	<div class="row">
+
+		  <div class="col-xs-12">
+		  <div class="feature-image">
+
+				<img src="img/graphics/nypl-case-study.jpg" alt="NYPL">
+
+		  </div>
+		  </div>
+	
+	</div>
+
 
 	<div class="row">
 
@@ -58,73 +79,6 @@
 </div>
 </section>
 
-
-
-
-<section id="more-case-studies">
-<div class="container">
-
-	<div class="row">
-
-	  <div class="col-xs-12">
-
-		<h4>More Case Studies</h4>
-
-	  </div>
-	
-	</div>
-
-	<div class="row">
-
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">The New York Public Library</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">AARP Foundation Connecting to Communities</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">New York City Department for the Aging</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
-
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">Maimonides Medical Center</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
-
-	</div>
-
-
-</div>
-</section>
-
+<?php include( INC . 'touts-module.php' ); ?>
 
 <?php include('footer.php'); ?>

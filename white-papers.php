@@ -2,7 +2,7 @@
 
 <?php include( INC . 'primary-nav.php' ); ?>
 
-<section id="page-header">
+<section id="section-hed">
 	<div class="container">
 	  <h2>White Papers</h2>
 	</div>
@@ -10,7 +10,7 @@
 
 
 
-<section id="projects">
+<section>
 <div class="container">
 
 	<div class="row">
@@ -39,7 +39,7 @@
 	    <div class="thumbnail">
 	      <img src="http://placehold.it/400x300">
 	      <div class="caption">
-	        <h3><a href="client-projects-entry.php">The New York Public Library</a></h3>
+	        <h3><a href="white-papers-entry.php">Toward an Inclusive Measure of Broadband Adoption</a></h3>
 	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
 	        <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
 	      </div>

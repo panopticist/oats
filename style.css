@@ -3,18 +3,19 @@ Sprout
 */
 
 body{
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 10px;
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
   font-size: 18px;
   color:#222;
+	background: url(img/graphics/background_texture.jpg);
 }
 
 a{
   color:#0061a2;
 }
 a:hover{
- color:#fb5f67; 
+ color:#c2c2c2;
+ text-decoration: none;
 }
 
 section{
@@ -22,55 +23,55 @@ section{
 }
 
 .container{
-  max-width: 960px; /*This slims out the container of the site*/
+  max-width: 960px;
+}
+
+#main {
+  padding-bottom: 20px;
 }
 
 h1 {
 	font-size: 300%;
 	color:#0061a2;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	padding-bottom: 0;
 }
 
-h2 {
-	
+
+h4 {
+	font-weight:700;
+	text-transform: uppercase;
+	font-size: 150%;
+	margin-bottom: 20px;
 }
 
-h3{
-  margin: 0;
-  font-weight: 800;
+
+h5 {
+	font-size: 100%;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
-h4{
-  margin: 0;
-  margin-bottom: 5px;
-  font-weight: 800;
+.lead {
+  font-family: 'chaparral pro', serif;
+	line-height: 1.3em;
+	margin-bottom: 20px;
 }
-h4 a{
-  color:#000;
-}
-h4 a:hover{
-  color:#000;
-  text-decoration: none;
-  border-bottom: 2px #222 solid;
-}
-h6{
-  margin:0 0 7px 0;
-  text-transform: uppercase;
-}
+
 
 /*navbar*/
 
 .navbar-default {
-  background-color: #fff;
   border-color: none;
 }
 
 .navbar {
-  min-height: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border: none;
+  padding-bottom: 10px;
 }
 
 .dropdown-menu {
@@ -92,45 +93,153 @@ h6{
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.dropdown-menu.pull-right {
-  right: 0;
-  left: auto;
-}
 
 
 /*jumbotron*/
 
 .jumbotron {
-	height: 600px;
-	background: url(img/graphics/SPEC-jumbotron.jpg) no-repeat center center;
+	height: 400px;
+	background-color: #e1e1e1;
 	background-size:cover;
-	padding-top: 200px;
 	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .jumbotron .container {
 	max-width: 960px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .jumbotron h1 {
-	color: #fff;
+	color: #333333;
+}
+
+.jumbotron.white {
+	background-color: #fff;
+	height: auto;
+}
+
+.jumbotron.gray {
+	background-color: #e1e1e1;
+	height: auto;
+}
+
+.jumbotron p.lead {
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+	font-size: 250%;
+	color: #54b948;
 }
 
 .jumbotron p {
+	font-size: 150%;
+	color: #333333;
+}
+
+.jumbotron.entry-img {
+	height: 500px;
+	background: url(img/graphics/spec-blue-1200x600.jpg) no-repeat center center;
+	background-size:cover;
+	padding-top: 50px;
+	margin-bottom: 0;
+}
+
+/*mission*/
+
+#mission-1 {
+	height: 400px;
+	background: url(img/graphics/spec-blue-1200x600.jpg) no-repeat center center;
+	background-size:cover;
+}
+
+#mission-2,
+#mission-4 {
+	height: auto;
+	background: url(img/graphics/background_texture.jpg);
+}
+
+#mission-3 {
+	height: auto;
+	background-color: #e1e1e1;
+	background-size:cover;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#mission-5 {
+	height: auto;
+	background-color: #0061a2;
+	background-size:cover;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#mission-1 .container,
+#mission-2 .container,
+#mission-3 .container,
+#mission-4 .container,
+#mission-5 .container {
+	max-width: 960px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+#mission-1 h1 {
+	font-size: 400%;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#mission-1 p.lead,
+#mission-2 p.lead,
+#mission-3 p.lead,
+#mission-4 p.lead,
+#mission-5 p.lead {
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+	font-size: 175%;
+	color: #54b948;
+	line-height: 1.2em;
+}
+
+#mission-3 p.lead {
+  color:#0061a2;
+}
+
+#mission-1 p.lead,
+#mission-5 p.lead {
 	color: #fff;
 }
 
-/*page header*/
+#mission-1 p.lead {
+	font-size: 166.666666666667;
+	margin-right: 150px;
+}
 
-section#page-header {
+#mission-1 p,
+#mission-2 p,
+#mission-3 p,
+#mission-4 p {
+	font-size: 111.111111111111%;
+	color: #5e5e5e;
+  font-family: 'chaparral pro', serif;
+	margin-bottom: 25px;
+}
+
+
+
+
+/*section header*/
+
+#section-hed {
 	padding-top: 10px;
 	background-color:#0061a2;
 	border-top: 1px solid #5081a1;
 	border-bottom: 1px solid #5081a1;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
-section#page-header .container h2 {
+#section-hed h2 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
@@ -151,6 +260,12 @@ section#page-header .container h2 {
           transition: all .2s ease-in-out;
 }
 
+.thumbnail .caption h3 {
+	font-size: 200%;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
 .thumbnail .caption h4 {
 	font-size: 66.666666666667%;
   font-weight: normal;
@@ -166,52 +281,31 @@ section#page-header .container h2 {
 	margin-bottom: 12px;
 }
 
-/*content*/
-
-.lead {
-  font-family: 'chaparral pro', serif;
-	line-height: 1.3em;
-	margin-bottom: 25px;
+#newsfeed .caption h3 {
+	font-size: 150%;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-top: 3px;
 }
 
-#bio {
-	padding-top: 0;
-}
-
-#bio h1 {
-  color:#0061a2;
-	font-size: 250%;
-	font-weight: 400;
-	letter-spacing: -0.04em;
-	margin-top: 6px;
-}
-
-#bio h5 {
-	font-size: 100%;
+#newsfeed .caption h4 {
+	font-size: 77.777777777778%;
 	font-weight: 400;
 	text-transform: uppercase;
-	margin-top: 30px;
-	margin-bottom: 0;
+	margin-top: 5px;
+	margin-bottom: 2px;
 }
 
-.container.entry img {
-	margin: 10px 0 30px 0;
-	max-width: 100%;
-	border: 1px solid #c2c2c2;
+#newsfeed .row {
+	margin-bottom: 10px;
 }
 
-.jumbotron.entry-img {
-	height: 500px;
-	background: url(img/graphics/nypl-case-study.jpg) no-repeat center center;
-	background-size:cover;
-	padding-top: 200px;
-	margin-bottom: 0;
-}
+
+
+/*content*/
 
 #entry {
-	background-color: #fff;
-	opacity: 0.9;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 #entry h1 {
@@ -222,15 +316,10 @@ section#page-header .container h2 {
   color:#0061a2;
 }
 
-#entry h2 {
-  font-family: 'chaparral pro', serif;
-	font-weight: 400;
-	font-style: italic;
-  font-size: 24px;
-  line-height: 1.2em;
-  margin-top: 0;
-  margin-bottom: 12px;
-  color:#222;
+.feature-image img {
+	margin: 0 0 30px 0;
+	max-width: 100%;
+	border: 1px solid #c2c2c2;
 }
 
 #entry p {
@@ -239,21 +328,28 @@ section#page-header .container h2 {
   color:#222;
 }
 
-section#more-case-studies {
+#entry h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color:#0061a2;
+}
+
+#touts-module {
 	padding-top: 30px;
 	padding-bottom: 20px;
   background-color: #e1e1e1;
 }
 
-section#more-case-studies h3 {
+#touts h3 {
 	font-size: 125%;
 	margin-bottom: 12px;
 }
 
-section#more-case-studies h4 {
-	text-transform: uppercase;
-	font-size: 150%;
-	margin-bottom: 20px;
+#touts h4 {
+	margin-bottom: 0;
 }
 
 /*projects*/
@@ -263,7 +359,12 @@ section#more-case-studies h4 {
 }
 
 .thumbnail .caption h3 {
-  font-size: 18px;
+  font-size: 125%;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.thumbnail .caption h4 {
   margin-bottom: 8px;
 }
 
@@ -284,13 +385,15 @@ section#more-case-studies h4 {
   margin-bottom: 18px;
 }
 
-#projects {
-	background-color:#fff;
+.thumbnail img {
+	border: 1px solid #c2c2c2;
+	margin-bottom: 6px;
 }
 
-#projects h1 {
-	line-height: 1.1em;
-	margin-bottom: 24px;
+#press .thumbnail img {
+	float: left;
+	border: 1px solid #c2c2c2;
+	margin-bottom: 6px;
 }
 
 /*sidebar*/
@@ -319,6 +422,8 @@ p a.btn-primary {
 #footer {
 	min-height: 200px;
 	background-color: #333333;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 

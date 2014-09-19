@@ -2,7 +2,7 @@
 
 <?php include( INC . 'primary-nav.php' ); ?>
 
-<section id="page-header">
+<section id="section-hed">
 	<div class="container">
 	  <h2>Client Projects</h2>
 	</div>
@@ -10,7 +10,7 @@
 
 
 
-<section id="projects">
+<section id="newsfeed">
 <div class="container">
 
 	<div class="row">
