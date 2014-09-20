@@ -34,8 +34,10 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="team.php">Team</a></li>
             <li><a href="board.php">Board</a></li>
+            <li><a href="partners.php">Partners</a></li>
+            <li><a href="program-sites.php">Program Sites</a></li>
+            <li><a href="funders.php">Funders</a></li>
             <li><a href="in-kind-donors.php">In-Kind Donors</a></li>
-            <li><a href="funders-and-sponsors.php">Funders &amp; Sponsors</a></li>
           </ul>
         </li>
 

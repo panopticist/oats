@@ -4,7 +4,7 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>People</h2>
+	  <h2>Team</h2>
 	</div>
 </section>
 

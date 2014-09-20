@@ -4,20 +4,20 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>In-Kind Donors</h2>
+	  <h2>About</h2>
 	</div>
 </section>
 
 
 
-<section id="projects">
+<section id="main">
 <div class="container">
 
 	<div class="row">
 
 	  <div class="col-xs-12">
 
-			<h1>Headline Lorem Ipsum</h1>
+			<h1>In-Kind Donors</h1>
 
 	  </div>
 	
@@ -34,7 +34,7 @@
 	</div>
 
 
-	<div class="row">
+	<div class="row columned-list">
 
 	  <div class="col-xs-12 col-sm-4 col-md-4">
 

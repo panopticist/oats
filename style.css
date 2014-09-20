@@ -27,7 +27,7 @@ section{
 }
 
 #main {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -296,9 +296,14 @@ h5 {
 	margin-bottom: 2px;
 }
 
-#newsfeed .row {
-	margin-bottom: 10px;
+.row.columned-list {
+  margin-top: 10px;
 }
+
+.row.columned-list p {
+  margin-bottom: 24px;
+}
+
 
 
 

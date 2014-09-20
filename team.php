@@ -4,7 +4,7 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>People</h2>
+	  <h2>About</h2>
 	</div>
 </section>
 
@@ -18,7 +18,7 @@
 
 	  <div class="col-xs-12">
 
-			<h1>Our Talented Team</h1>
+			<h1>Our Team</h1>
 
 	  </div>
 
