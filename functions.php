@@ -3,21 +3,36 @@
 // This File stores all of your funcitons.
 // It should be included on your header.php file.
 
+include_once 'functions/wp_enqueue_script.php';
+// include_once 'functions/loop.php';
+// include_once 'functions/images.php';
+// include_once 'functions/related-link.php';
+// include_once 'functions/chart.php';
+// include_once 'functions/kicker.php';
 
-// Version
-$v = '1.1';
-define(V, $v);
+// include_once 'functions/timeline.php';
+// include_once 'functions/steps.php';
 
-// Path to Root dir
-$root = 'http://' . $_SERVER["HTTP_HOST"] . dirname($_SERVER["PHP_SELF"]);
-define(ROOT, $root);
 
-// Include Path
-// All template files go in the /INC/ folder. 
-// Use this to call those files —
-// include_once( INC . 'filename.php' );
-$inc = $_SERVER["DOCUMENT_ROOT"] . dirname($_SERVER["PHP_SELF"]) . '/inc/';
-define(INC, $inc);
+// Public Template Directory URL
+$tdir = get_template_directory_uri();
+define('TDIR', $tdir);
+
+// Relative Template Directory URL
+$root = get_template_directory();
+define('ROOT', $root);
+
+// Includes Path
+$inc = $root . '/inc/';
+define('INC', $inc);
+
+
+
+// Hide WP Admin Bar
+add_filter('show_admin_bar', '__return_false');
+
+
+
 
 
 ?>

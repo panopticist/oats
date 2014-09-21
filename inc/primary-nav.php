@@ -8,8 +8,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="img/graphics/oats-logo-blue.svg" width="200" height="auto">
-</a>
+
+      <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo TDIR . '/img/graphics/oats-logo-blue.svg'; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" width="200" height="auto" class="img-responsive logo"></a>
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

@@ -1,26 +1,37 @@
-<?php include_once('functions.php'); ?>
 <!DOCTYPE html>
-<html>
-<head>
-  <title>OATS Beta</title>
-  <meta charset="UTF-8" />
+<html <?php language_attributes(); ?>>
+  <head>
+    <title><?php wp_title( '|', true, 'right' ); ?><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></title>
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/css/bootstrap.min.css?v=<?php echo V; ?>'>"/>
-  <!-- Le Font Awesome // http://fontawesome.github.io/Font-Awesome/icons -->
-  <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/css/font-awesome.min.css?v=<?php echo V; ?>'>"/>
-  <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/style.css?v=<?php echo V; ?>'>"/>
+    <meta name="keywords" content="Park Slope Food Coop, Cooperative Design Process, Food Coop, Brooklyn, Cooperative" />
+    <meta name="description" content="A member-owned cooperative in Brooklyn, New York." />
 
-  <!-- Typekit -->
-  <script src="//use.typekit.net/yfy7fjl.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Le Fonts: Lato -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!-- Open Graph Tags -->
+    <?php // include INC . 'open-graph.php'; ?>
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 
 
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/css/bootstrap.min.css?v=<?php echo V; ?>'>"/>
+    <!-- Le Font Awesome // http://fontawesome.github.io/Font-Awesome/icons -->
+    <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/css/font-awesome.min.css?v=<?php echo V; ?>'>"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="<?php echo ROOT; ?>/style.css?v=<?php echo V; ?>'>"/>
 
-  <?php // include( INC . 'head.php' ); ?>
+    <!-- Typekit -->
+    <script src="//use.typekit.net/yfy7fjl.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <?php wp_head(); ?>
+
+  </head>
+  <body <?php body_class(); ?>>
+
+
