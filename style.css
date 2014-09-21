@@ -163,6 +163,8 @@ h5 {
 #mission-4 {
 	height: auto;
 	background: url(img/graphics/background_texture.jpg);
+	padding-top: 40px;
+	padding-bottom: 0;
 }
 
 #mission-3 {
@@ -170,6 +172,7 @@ h5 {
 	background-color: #e1e1e1;
 	background-size:cover;
 	margin-bottom: 0;
+	padding-top: 40px;
 	padding-bottom: 0;
 }
 
@@ -187,7 +190,7 @@ h5 {
 #mission-4 .container,
 #mission-5 .container {
 	max-width: 960px;
-  padding-top:40px;
+  padding-top:0;
   padding-bottom:40px;
 }
 
