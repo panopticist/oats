@@ -1,13 +1,16 @@
+<?php 
+	/* Template Name: Client Projects */
+?>
+
 <?php include('header.php'); ?>
 
 <?php include( INC . 'primary-nav.php' ); ?>
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>Client Projects</h2>
+	  <h2><?php the_title(); ?></h2>
 	</div>
 </section>
-
 
 
 <section>

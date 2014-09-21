@@ -4,11 +4,11 @@
 // It should be included on your header.php file.
 
 include_once 'functions/wp_enqueue_script.php';
-// include_once 'functions/loop.php';
+include_once 'functions/loop.php';
 // include_once 'functions/images.php';
 // include_once 'functions/related-link.php';
 // include_once 'functions/chart.php';
-// include_once 'functions/kicker.php';
+include_once 'functions/kicker.php';
 
 // include_once 'functions/timeline.php';
 // include_once 'functions/steps.php';
@@ -41,6 +41,29 @@ function oats_register_menu() {
   register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'oats_register_menu' );
+
+
+
+
+// Get the Featured Image
+function featured_image($post){
+	if ( has_post_thumbnail($post->ID)) {
+    $featured_img = wp_get_attachment_metadata(get_post_thumbnail_id($post->ID));
+    print_r($featured_img);
+    echo '<img src="img/graphics/nypl-case-study.jpg" alt="NYPL">';
+  }
+}
+
+
+
+// Example Functions
+function hearst(){
+	echo 'Hello! I am Andrew.';
+}
+
+function get_hearst(){
+	return 'Hello! I am Andrew.';
+}
 
 
 
