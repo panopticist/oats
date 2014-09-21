@@ -31,7 +31,16 @@ define('INC', $inc);
 // Hide WP Admin Bar
 add_filter('show_admin_bar', '__return_false');
 
+// Adds Post Thumnails
+add_theme_support( 'post-thumbnails' );
 
+
+// Register a Menu
+function oats_register_menu() {
+  register_nav_menu('main-menu',__( 'Main Menu' ));
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'oats_register_menu' );
 
 
 
