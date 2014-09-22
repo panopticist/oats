@@ -92,12 +92,16 @@ header ul li a:hover{
 	color: inherit;
 }
 
-
+section#archive {
+	padding-top: 0;
+}
 
 /*Featured Image on Pages*/
 .featured-image{}
 .featured-image img{
-	width: 100%;
+	margin: 0 0 30px 0;
+	max-width: 100%;
+	border: 1px solid #c2c2c2;
 }
 
 
@@ -280,6 +284,7 @@ header ul li a:hover{
 	font-size: 200%;
   font-weight: 700;
   line-height: 1.3em;
+  margin-bottom: 0;
 }
 
 .thumbnail .caption h4 {
@@ -325,11 +330,11 @@ header ul li a:hover{
 
 /*content*/
 
-#entry {
+.entry-content {
 	padding-bottom: 30px;
 }
 
-#entry h1 {
+.entry-content h1 {
 	font-weight: 400;
   font-size: 48px;
   margin-bottom: 12px;
@@ -337,19 +342,13 @@ header ul li a:hover{
   color:#0061a2;
 }
 
-.feature-image img {
-	margin: 0 0 30px 0;
-	max-width: 100%;
-	border: 1px solid #c2c2c2;
-}
-
-#entry p {
+.entry-content p {
   font-family: 'chaparral pro', serif;
   margin-bottom: 1.3em;
   color:#222;
 }
 
-#entry h2 {
+.entry-content h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2em;

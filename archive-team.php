@@ -6,7 +6,7 @@
 	</div>
 </section>
 
-<section>
+<section id="archive">
 	<div class="container">
 
 		<div class="row">
@@ -47,9 +47,9 @@
 					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
 					      <div class="caption">
 					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-					        <p class="entry-summary">
+					        <div class="entry-summary">
 										<?php the_excerpt(); ?>
-									</p>
+									</div>
 					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Bio</a></p>
 					      </div>
 					    </div>
