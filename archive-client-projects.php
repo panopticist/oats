@@ -2,7 +2,7 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2><?php the_title(); ?></h2>
+	  <h2>Work</h2>
 	</div>
 </section>
 
@@ -11,7 +11,7 @@
 
 		<div class="row">
 		  <div class="col-xs-12">
-				<h1>Headline Lorem Ipsum</h1>
+				<h1>Client Projects</h1>
 		  </div>
 		</div>
 

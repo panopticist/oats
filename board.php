@@ -1,3 +1,7 @@
+<?php 
+	/* Template Name: Board */
+?>
+
 <?php include('header.php'); ?>
 
 <section id="section-hed">
