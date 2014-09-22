@@ -7,9 +7,15 @@
 
 		  	<!-- Rubric -->
 		  	<?php 
-					$post_type = get_post_type_object( get_post_type($post) );
+
+					$rubric = get_post_type_object( get_post_type($post) );
+					$rubric = $rubric->label;
+					if ($rubric == 'Team') {
+						$rubric = get_post_meta( get_the_ID(), 'job_title', true );
+					}
+
 				?>
-  			<h5><?php echo $post_type->label; ?></h5>
+  			<h5><?php echo $rubric; ?></h5>
 
 
   			<!-- Headline -->
