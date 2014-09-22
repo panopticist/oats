@@ -5,7 +5,7 @@
 
 				<div class="col-xs-6 col-md-2">
 
-					<img src="img/graphics/oats-logo-white.svg" style="max-width: 100%; height: auto;">
+					<img src="<?php echo TDIR . '/img/graphics/oats-logo-white.svg'; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="img-responsive logo"></a>
 
 				</div>
 

@@ -17,6 +17,6 @@
       <li><a href="#">In-Kind Donors</a></li>
     </ul>
   </li>
-  <li><a href="#">Press</a></li>
+  <li><a href="http://localhost:8888/wp/press/">Press</a></li>
   <li><a href="#">Contact Us</a></li>
 </ul>

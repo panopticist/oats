@@ -1,3 +1,7 @@
+<?php 
+	/* Template Name: Press */
+?>
+
 <?php include('header.php'); ?>
 
 <section id="section-hed">
@@ -8,7 +12,7 @@
 
 
 
-<section>
+<section id="archive">
 <div class="container">
 
 	<div class="row">

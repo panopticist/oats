@@ -48,6 +48,12 @@
 					      <div class="caption">
 					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 					        <div class="entry-summary">
+										
+												  	<?php 
+																$rubric = get_post_meta( get_the_ID(), 'job_title', true );
+																echo '<h4>'.$rubric.'</h4>';										
+														?>
+
 										<?php the_excerpt(); ?>
 									</div>
 					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Bio</a></p>

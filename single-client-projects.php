@@ -2,10 +2,7 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <?php 
-			$post_type = get_post_type_object( get_post_type($post) );
-		?>
-	  <h2><?php echo $post_type->label; ?></h2>
+	  <h2>Work</h2>
 	</div>
 </section>
 

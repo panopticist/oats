@@ -291,6 +291,7 @@ section#archive {
 	font-size: 66.666666666667%;
   font-weight: normal;
   text-transform: uppercase;
+  line-height: 1.4em;
 }
 
 .thumbnail .caption {
@@ -355,6 +356,14 @@ section#archive {
   margin-top: 0;
   margin-bottom: 12px;
   color:#0061a2;
+}
+
+.thumbnail .caption .entry-summary h4 {
+	font-size: 66.666666666667%;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.7em;
+  margin-top: 0;
 }
 
 #touts-module {
