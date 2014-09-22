@@ -86,7 +86,7 @@ header h1 img{
 header ul{}
 header ul li{}
 header ul li a{
-	font-weight: 700;
+	font-weight: 400;
 }
 header ul li a:hover{
 	color: inherit;

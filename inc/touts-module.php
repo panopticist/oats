@@ -6,59 +6,48 @@
 
 	  <div class="col-xs-12">
 
-		<h4>More Case Studies</h4>
+		<h4>White Papers</h4>
 
 	  </div>
 	
 	</div>
 
-	<div class="row" id="touts">
+		<div class="row">
+		  <div class="col-xs-12 col-md-10">
+		  </div>
+		</div>
 
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">The New York Public Library</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
+		<div class="row">
+			<?php 
+				$the_query = new WP_Query('post_type=white-papers', 'posts_per_page=-1');
+				$i = 1;
+				if ( $the_query->have_posts() ) {
+					while ( $the_query->have_posts() ) {
+						$the_query->the_post(); ?>
 
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">AARP Foundation Connecting to Communities</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
+						<?php if ($i % 5 == 0){
+							echo "</div><div class='row'>";
+						} ?>
 
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">New York City Department for the Aging</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+					    <div class="thumbnail">
+					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
+					      <div class="caption">
+					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+					        <p class="entry-summary">
+										<?php the_excerpt(); ?>
+									</p>
+					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Case Study</a></p>
+					      </div>
+					    </div>
+					  </div>
 
-	  <div class="col-xs-12 col-sm-6 col-md-3">
-	    <div class="thumbnail">
-	      <img src="http://placehold.it/400x300">
-	      <div class="caption">
-	        <h3><a href="#">Maimonides Medical Center</a></h3>
-	        <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-	        <p><a href="#" class="btn btn-primary" role="button">View Case Study</a></p>
-	      </div>
-	    </div>
-	  </div>
-
-	</div>
+					<?php 
+					$i++;
+					}
+				}
+			?>
+		</div>
 
 </div>
 </section>
