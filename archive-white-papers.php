@@ -24,7 +24,7 @@
 
 		<div class="row">
 			<?php 
-				$the_query = new WP_Query('post_type=white-papers');
+				$the_query = new WP_Query('post_type=white-papers', 'posts_per_page=-1');
 
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
