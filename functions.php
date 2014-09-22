@@ -5,13 +5,8 @@
 
 include_once 'functions/wp_enqueue_script.php';
 include_once 'functions/loop.php';
-// include_once 'functions/images.php';
-// include_once 'functions/related-link.php';
-// include_once 'functions/chart.php';
 include_once 'functions/kicker.php';
-
-// include_once 'functions/timeline.php';
-// include_once 'functions/steps.php';
+include_once 'functions/post-type-client-projects.php';
 
 
 // Public Template Directory URL

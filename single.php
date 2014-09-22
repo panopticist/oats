@@ -11,6 +11,4 @@
 			</div>
 		</div>
 	</section>
-	<?php include INC .'mailing-list-signup.php'; ?>
-	<?php include INC .'process-promo.php'; ?>
 <?php get_footer(); ?>
