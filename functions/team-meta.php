@@ -62,7 +62,3 @@ function cd_meta_box_save( $post_id )
 		update_post_meta( $post_id, 'job_title', wp_kses( $_POST['job_title'], $allowed ) );
 	
 }
-
-
-
-?>
