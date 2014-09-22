@@ -34,6 +34,7 @@ section{
 }
 
 #main {
+  padding-top: 0;
   padding-bottom: 30px;
 }
 
@@ -247,6 +248,7 @@ h5 {
 	border-top: 1px solid #5081a1;
 	border-bottom: 1px solid #5081a1;
 	margin-bottom: 30px;
+	padding-bottom: 0;
 }
 
 #section-hed h2 {
