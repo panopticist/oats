@@ -134,4 +134,4 @@ function add_kicker_meta_box() {
 }
 add_action('save_post', 'oats_get_kicker_save', 0);
 add_action('add_meta_boxes', 'add_kicker_meta_box');
-?>
+

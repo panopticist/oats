@@ -1,8 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('entry hidden'); ?>>
 	<header class="entry-header">
 
-		<?php oats_the_kicker(); ?>
-
 		<?php if ( is_single() ) : ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>

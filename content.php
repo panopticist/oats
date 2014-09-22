@@ -5,8 +5,6 @@
 
 			  <div class="col-xs-12">
 
-					<?php oats_the_kicker(); ?>
-
 					<?php if ( is_singular() ) : ?>
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 					<?php else : ?>
