@@ -24,7 +24,15 @@
 
 		<div class="row">
 			<?php 
-				$the_query = new WP_Query('post_type=team', 'posts_per_page=-1');
+
+				$args = array(
+					'post_type'           => 'team',
+					'posts_per_page' 			=> -1,
+					'orderby'        			=> 'menu_order',
+					'order'        			=> 'DESC'
+				);
+				$the_query = new WP_Query($args);
+				
 				$i = 1;
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
