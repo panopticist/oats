@@ -7,6 +7,9 @@ include_once 'functions/wp_enqueue_script.php';
 include_once 'functions/loop.php';
 include_once 'functions/kicker.php';
 include_once 'functions/post-type-client-projects.php';
+include_once 'functions/post-type-white-papers.php';
+include_once 'functions/post-type-team.php';
+
 
 
 // Public Template Directory URL
