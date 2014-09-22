@@ -7,20 +7,41 @@
 </section>
 
 <section id="archive">
-	<div class="container">
+<div class="container">
 
-		<div class="row">
-		  <div class="col-xs-12">
-				<h1>Client Projects</h1>
-		  </div>
-		</div>
+	<div class="row">
+
+	  <div class="col-xs-12">
+
+			<h1>
+				<?php
+				$post_id = 92;
+				$queried_post = get_post($post_id);
+				$title = $queried_post->post_title;
+				echo $title;
+				?>
+			</h1>
 
 
-		<div class="row">
-		  <div class="col-xs-12 col-md-10">
-				<p class="lead">OATS works with a wide range of mauris vulputate tincidunt velit, quis imperdiet mi tempus et. Donec scelerisque massa id tortor venenatis egestas. Donec sit amet imperdiet massa. Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam.</p>
-		  </div>
-		</div>
+	  </div>
+	
+	</div>
+
+	<div class="row">
+
+	  <div class="col-xs-12 col-md-10">
+
+			<p class="lead">
+				<?php
+				$post_id = 92;
+				$queried_post = get_post($post_id);
+				echo $queried_post->post_content;
+				?>
+			</p>
+
+	  </div>
+	
+	</div>
 
 		<div class="row">
 			<?php 
