@@ -25,10 +25,14 @@
 		<div class="row">
 			<?php 
 				$the_query = new WP_Query('post_type=white-papers', 'posts_per_page=-1');
-
+				$i = 1;
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
 						$the_query->the_post(); ?>
+
+						<?php if ($i % 5 == 0){
+							echo "</div><div class='row'>";
+						} ?>
 
 						<div class="col-xs-12 col-sm-6 col-md-3">
 					    <div class="thumbnail">
@@ -44,6 +48,7 @@
 					  </div>
 
 					<?php 
+					$i++;
 					}
 				}
 			?>
