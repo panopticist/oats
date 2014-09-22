@@ -3,9 +3,6 @@
 ?>
 
 <?php include('header.php'); ?>
-
-<?php include( INC . 'primary-nav.php' ); ?>
-
 <section id="section-hed">
 	<div class="container">
 	  <h2><?php the_title(); ?></h2>

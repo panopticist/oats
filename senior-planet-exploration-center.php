@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
 
-<?php include( INC . 'primary-nav.php' ); ?>
-
 <section id="section-hed">
 	<div class="container">
 	  <h1>Our Work</h1>

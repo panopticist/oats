@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<?php include( INC . 'primary-nav.php' ); ?>
-
 <section id="section-hed">
 	<div class="container">
 	  <?php 

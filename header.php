@@ -34,4 +34,18 @@
   </head>
   <body <?php body_class(); ?>>
 
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>
+              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo TDIR . '/img/graphics/oats-logo-blue.svg'; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class=" img-responsive logo"></a>
+            </h1>
+
+            <?php include( INC . 'primary-nav.php' ); ?>
+
+          </div>
+        </div>
+      </div>
+    </header>
 
