@@ -4,8 +4,10 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>Client Projects</h2>
-	  <!-- Custom Post Type Name -->
+		<?php 
+			$post_type = get_post_type_object( get_post_type($post) );
+		?>
+	  <h2><?php echo $post_type->label; ?></h2>
 	</div>
 </section>
 
