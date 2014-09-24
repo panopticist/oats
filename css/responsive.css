@@ -5,9 +5,20 @@ XS
 */
 @media screen and (max-width: 767px) {
 
-	img {
-		float: left;
-	}
+		h1 { 
+			font-size: 225%;
+		}
+
+		#archive p.lead {
+			font-size: 116.666666666667%;
+		}
+
+		/*Featured Image on Press Archive*/
+		#newsfeed .thumbnail img{
+			width: 150px;
+			height: auto;
+			margin: 10px 10px 10px 0;
+		}
 
 
 }
@@ -24,6 +35,21 @@ SM
 	section{
   	padding:60px 0;
 	}
+
+		h1 { 
+			font-size: 225%;
+		}
+
+		#archive p.lead {
+			font-size: 116.666666666667%;
+		}
+
+		/*Featured Image on Press Archive*/
+		#newsfeed .thumbnail img{
+			width: 150px;
+			height: auto;
+			margin: 10px 10px 10px 0;
+		}
 
 }
 

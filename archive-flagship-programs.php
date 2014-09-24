@@ -7,7 +7,7 @@
 </section>
 
 <section id="archive">
-	<div class="container">
+<div class="container">
 
 	<div class="row">
 
@@ -15,7 +15,7 @@
 
 			<h1>
 				<?php
-				$post_id = 94;
+				$post_id = 111;
 				$queried_post = get_post($post_id);
 				$title = $queried_post->post_title;
 				echo $title;
@@ -33,7 +33,7 @@
 
 			<p class="lead">
 				<?php
-				$post_id = 94;
+				$post_id = 111;
 				$queried_post = get_post($post_id);
 				echo $queried_post->post_content;
 				?>
@@ -45,7 +45,8 @@
 
 		<div class="row">
 			<?php 
-				$the_query = new WP_Query('post_type=white-papers', 'posts_per_page=-1');
+				$the_query = new WP_Query('post_type=flagship-programs', 'posts_per_page=-1');
+
 				$i = 1;
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
@@ -54,8 +55,8 @@
 						<?php if ($i % 5 == 0){
 							echo "</div><div class='row'>";
 						} ?>
-
-						<div class="col-xs-12 col-sm-6 col-md-3">
+							
+						<div class="col-xs-12 col-sm-6">
 					    <div class="thumbnail">
 					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
 					      <div class="caption">

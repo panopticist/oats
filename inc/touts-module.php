@@ -37,7 +37,7 @@
 					        <p class="entry-summary">
 										<?php the_excerpt(); ?>
 									</p>
-					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Case Study</a></p>
+					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Learn More</a></p>
 					      </div>
 					    </div>
 					  </div>

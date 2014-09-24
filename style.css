@@ -1,7 +1,7 @@
 /*
 Theme Name: OATS
 Theme URI: http://oats.org
-Description: Lorem ipsum.
+Description: Older Adults Technology Services (OATS).
 Version: 1.0
 Author: Andrew Hearst
 Author URI: http://andrewhearst.com/
@@ -87,6 +87,7 @@ header ul{}
 header ul li{}
 header ul li a{
 	font-weight: 400;
+	color:#54b948;
 }
 header ul li a:hover{
 	color: inherit;
@@ -110,6 +111,15 @@ section#archive {
 	width: 100%;
 }
 
+#newsfeed .thumbnail img {
+	float: left;
+	margin-right: 20px;
+}
+
+#newsfeed .thumbnail img {
+	float: left;
+	margin-right: 20px;
+}
 
 /*jumbotron*/
 

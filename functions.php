@@ -9,9 +9,11 @@ include_once 'functions/team-meta.php';
 // include_once 'functions/kicker.php';
 include_once 'functions/post-type-homepage.php';
 include_once 'functions/post-type-section-intros.php';
+include_once 'functions/post-type-flagship-programs.php';
 include_once 'functions/post-type-team.php';
 include_once 'functions/post-type-client-projects.php';
 include_once 'functions/post-type-white-papers.php';
+include_once 'functions/post-type-press.php';
 
 
 

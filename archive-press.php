@@ -51,41 +51,38 @@
 
 	<div id="newsfeed">
 
-	<div class="row">
 
-		  <div class="col-xs-12 col-md-3">
-		    <div class="thumbnail">
-		      <img src="http://placehold.it/400x300">
-		    </div>
-		  </div>
+			<?php 
+				$the_query = new WP_Query('post_type=press', 'posts_per_page=-1');
 
-		  <div class="col-xs-12 col-md-8">
-		    <div class="caption">
-		      <h4>January 23, 2015</h4>
-		      <h3><a href="white-papers-entry.php">Toward an Inclusive Measure of Broadband Adoption</a></h3>
-		      <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-		    </div>
-		  </div>
+				$i = 1;
+				if ( $the_query->have_posts() ) {
+					while ( $the_query->have_posts() ) {
+						$the_query->the_post(); ?>
 
-	</div>
+		<div class="row">
 
-	<div class="row">
+						  <div class="col-xs-12">
+						    <div class="thumbnail">
+						      <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'thumbnail'); ?></a>
+						    </div>
 
-		  <div class="col-xs-12 col-md-3">
-		    <div class="thumbnail">
-		      <img src="http://placehold.it/400x300">
-		    </div>
-		  </div>
+						    <div class="caption">
+						      <h4><?php the_time(get_option('date_format')); ?></h4>
+						      <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+						        <p class="entry-summary">
+											<?php the_excerpt(); ?>
+										</p>
+						    </div>
+						  </div>
 
-		  <div class="col-xs-12 col-md-8">
-		    <div class="caption">
-		      <h4>January 21, 2015</h4>
-		      <h3><a href="white-papers-entry.php">Toward an Inclusive Measure of Broadband Adoption</a></h3>
-		      <p>Quisque iaculis lorem ut tellus varius vel tincidunt felis aliquam. Mauris at molestie dui. Vestibulum quis arcu sed dui bibendum mollis non quis purus. </p>
-		    </div>
-		  </div>
+		</div>
 
-	</div>
+					<?php 
+					$i++;
+					}
+				}
+			?>
 
 	</div>
 

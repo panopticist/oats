@@ -6,7 +6,7 @@
 
 <?php // get_post_field( $post_content, $post_id (64) ); ?>
 
-			<h1>The Practice of Change</h1>h1>
+			<h1>The Practice of Change</h1>
 			<p class="lead">OATS harnesses the power of technology to change the way we age. Since 2004, we've innovated one of the nation's most powerful models to shape the future of aging.</p>
 
 	</div>
