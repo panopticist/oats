@@ -1,8 +1,7 @@
 <?php
 
-function loop(){
+function loop($type){
 	$i = 0;
-	$type = '';
 	if (have_posts()) {
 		while (have_posts()) {
 			the_post(); ?>
@@ -10,6 +9,7 @@ function loop(){
 				if (empty($type)) {
 					get_template_part('content', get_post_format() );
 				} else {
+					// Example content-blog.php
 					get_template_part('content', $type );
 				}
 			?>
