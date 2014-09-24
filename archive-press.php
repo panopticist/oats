@@ -68,7 +68,7 @@
 						    </div>
 
 						    <div class="caption">
-						      <h4><?php the_time(get_option('date_format')); ?></h4>
+						      <h4 class="last"><?php the_time(get_option('date_format')); ?></h4>
 						      <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 						        <p class="entry-summary">
 											<?php the_excerpt(); ?>

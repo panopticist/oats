@@ -116,9 +116,14 @@ section#archive {
 	margin-right: 20px;
 }
 
-#newsfeed .thumbnail img {
+.thumbnail attachment-thumbnail wp-post-image {
 	float: left;
 	margin-right: 20px;
+}
+
+#archive #newsfeed h4.list {
+	margin-top: 0;
+	font-weight: 700;
 }
 
 /*jumbotron*/
