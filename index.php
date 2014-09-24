@@ -19,7 +19,7 @@
 	
 		  <div class="col-xs-12 col-md-5">
 		
-	      <img src="http://placehold.it/600x600" style="max-width: 100%; height: auto;">
+	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/homepage-videochat.jpg" style="max-width: 100%; height: auto;">
 		  
 		  </div>
 		  
@@ -53,7 +53,7 @@
 		  
 		  <div class="col-xs-12 col-md-5">
 		
-	      <img src="http://placehold.it/600x600" style="max-width: 100%; height: auto;">
+	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/homepage-teaching.jpg" style="max-width: 100%; height: auto;">
 		  
 		  </div>
 		  

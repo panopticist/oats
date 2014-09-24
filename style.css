@@ -87,10 +87,10 @@ header ul{}
 header ul li{}
 header ul li a{
 	font-weight: 400;
-	color:#54b948;
+	color:#333333;
 }
 header ul li a:hover{
-	color: inherit;
+	color: #54b948;
 }
 
 section#archive {
@@ -111,19 +111,24 @@ section#archive {
 	width: 100%;
 }
 
-#newsfeed .thumbnail img {
-	float: left;
-	margin-right: 20px;
+#newsfeed .row .thumbnail img {
+	margin:0;
+	padding:0;
+	width: 100%;
 }
 
-.thumbnail attachment-thumbnail wp-post-image {
-	float: left;
-	margin-right: 20px;
+.thumbnail img.attachment-medium.wp-post-image {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#archive #newsfeed .row {
+	margin-bottom: 10px;
 }
 
 #archive #newsfeed h4.list {
 	margin-top: 0;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 /*jumbotron*/
@@ -319,7 +324,7 @@ section#archive {
 }
 
 #newsfeed .caption h3 {
-	font-size: 150%;
+	font-size: 125%;
   font-weight: 700;
   line-height: 1.3em;
   margin-top: 3px;
@@ -331,14 +336,17 @@ section#archive {
 	text-transform: uppercase;
 	margin-top: 5px;
 	margin-bottom: 2px;
+	padding-top: 0;
 }
 
 .row.columned-list {
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
   margin-top: 10px;
 }
 
 .row.columned-list p {
-  margin-bottom: 24px;
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
 }
 
 
@@ -454,10 +462,11 @@ section#archive {
 }
 
 p a.btn-primary {
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
-	text-size: 150%;
+	text-size: 125%;
 	letter-spacing: 0.1em;
 }
 
