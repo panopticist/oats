@@ -1,5 +1,5 @@
 <ul class="nav nav-pills">
-  <li><a href="<?php echo get_site_url(); ?>/services/">Services</a></li>
+  <li><a href="<?php echo get_site_url(); ?>/approach/">Approach</a></li>
   <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <span class="caret"></a>
     <ul class="dropdown-menu" role="menu">
       <li><a href="<?php echo get_site_url(); ?>/flagship-programs/">Flagship Programs</a></li>
@@ -19,4 +19,5 @@
   </li>
   <li><a href="<?php echo get_site_url(); ?>/press/">Press</a></li>
   <li><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a></li>
+  <li><a href="<?php echo get_site_url(); ?>/donate/">Donate</a></li>
 </ul>

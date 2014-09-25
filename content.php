@@ -61,6 +61,8 @@
 		  <div class="col-xs-12 col-md-4">
 
 				<p>SIDEBAR</p>
+				
+				<div class="fb-facepile"></div>
 
 		  </div>
 

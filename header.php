@@ -4,7 +4,7 @@
     <title><?php wp_title( '|', true, 'right' ); ?><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
-    <meta name="keywords" content="Park Slope Food Coop, Cooperative Design Process, Food Coop, Brooklyn, Cooperative" />
+    <meta name="keywords" content="Older Adults Technology Services (OATS)" />
     <meta name="description" content="A member-owned cooperative in Brooklyn, New York." />
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -33,6 +33,20 @@
 
   </head>
   <body <?php body_class(); ?>>
+
+
+
+    <!-- Facebook Widget --> 
+			  <div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+
 
     <header>
       <div class="container">
