@@ -1,10 +1,12 @@
 <section id="main">
 	<div class="container">
 
+		<!-- The Content -->
 		<div class="row">
 
-		  <div class="col-xs-12">
+		  <div class="col-xs-12 col-md-8">
 
+		<!-- Featured Image -->
 		  	<!-- Rubric -->
 		  	<?php 
 					$rubric = get_post_type_object( get_post_type($post) );
@@ -27,29 +29,12 @@
 					</h3>
 				<?php endif; ?>
 
-		  </div>
-		</div>
-
-
-		<!-- Featured Image -->
-		<div class="row">
-
-		  <div class="col-xs-12">
 		  	<div class="featured-image">
 
 					<?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
 					
 		  	</div>
 		  	
-		  </div>
-		
-		</div>
-
-
-		<!-- The Content -->
-		<div class="row">
-
-		  <div class="col-xs-12 col-md-8">
 				<div class="entry-content">
 					<?php the_content(); ?>
 				</div>

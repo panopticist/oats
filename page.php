@@ -2,7 +2,7 @@
 
 <section id="section-hed">
 	<div class="container">
-	  <h2>Client Projects</h2>
+	  <h2>About</h2>
 	  <!-- Custom Post Type Name -->
 	</div>
 </section>
@@ -11,7 +11,7 @@
 	
 	// This runs the WordPress loop and pulls in the content
 	// See content.php and functions/loop.php
-	loop($type = '');
+	loop($type = 'blog');
 
 ?>
 
