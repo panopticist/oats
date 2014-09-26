@@ -20,6 +20,10 @@ XS
 			margin: 10px 10px 10px 0;
 		}
 
+		.optional {
+			display: hidden;
+		}
+
 
 }
 
