@@ -1,12 +1,12 @@
 <?php include('header.php'); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>Work</h2>
 	</div>
 </section>
 
-<section id="archive">
+<section class="archive">
 <div class="container">
 
 	<div class="row">
@@ -43,6 +43,13 @@
 	
 	</div>
 
+	</div>
+</section>
+
+
+<section class="tout-grid">
+	<div class="container">
+
 		<div class="row">
 			<?php 
 				$the_query = new WP_Query('post_type=flagship-programs', 'posts_per_page=-1');
@@ -57,16 +64,17 @@
 						} ?>
 							
 						<div class="col-xs-12 col-sm-6">
-					    <div class="thumbnail">
+
 					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
-					      <div class="caption">
+
 					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+
 					        <p class="entry-summary">
 										<?php the_excerpt(); ?>
 									</p>
+
 					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Learn More</a></p>
-					      </div>
-					    </div>
+
 					  </div>
 
 					<?php 
@@ -75,6 +83,7 @@
 				}
 			?>
 		</div>
+
 	</div>
 </section>
 

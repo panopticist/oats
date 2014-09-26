@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>Work</h2>
 	</div>
@@ -10,18 +10,18 @@
 	
 	// This runs the WordPress loop and pulls in the content
 	// See content.php and functions/loop.php
-	loop($type = 'blog');
+	loop($type = 'white-papers');
 
 ?>
 
-<section id="touts-module">
+<section class="tout-grid footer-module">
 <div class="container">
 
 		<div class="row">
 	
 		  <div class="col-xs-12">
 	
-			<h4>More White Papers</h4>
+				<h4>More White Papers</h4>
 	
 		  </div>
 		
@@ -41,16 +41,17 @@
 						} ?>
 							
 						<div class="col-xs-12 col-sm-6 col-md-3">
-					    <div class="thumbnail">
+
 					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
-					      <div class="caption">
-					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-					        <p class="entry-summary">
-										<?php the_excerpt(); ?>
-									</p>
-					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Learn More</a></p>
-					      </div>
-					    </div>
+
+				        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+
+				        <p class="entry-summary">
+									<?php the_excerpt(); ?>
+								</p>
+
+				        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Learn More</a></p>
+
 					  </div>
 
 					<?php 
@@ -59,6 +60,7 @@
 				}
 			?>
 		</div>
+
 	</div>
 </section>
 

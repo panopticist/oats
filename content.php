@@ -1,4 +1,4 @@
-<section id="main">
+<section class="main">
 	<div class="container">
 
 		<div class="row">

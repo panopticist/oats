@@ -1,12 +1,12 @@
 <?php include('header.php'); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>About</h2>
 	</div>
 </section>
 
-<section id="archive">
+<section class="archive">
 	<div class="container">
 
 	<div class="row">
@@ -43,6 +43,13 @@
 	
 	</div>
 
+	</div>
+</section>
+
+
+<section class="tout-grid">
+	<div class="container">
+
 		<div class="row">
 			<?php 
 
@@ -64,10 +71,11 @@
 						} ?>
 
 						<div class="col-xs-12 col-sm-6 col-md-3">
-					    <div class="thumbnail">
+
 					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
-					      <div class="caption">
+
 					        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+
 					        <div class="entry-summary">
 										
 												  	<?php 
@@ -77,9 +85,9 @@
 
 										<?php the_excerpt(); ?>
 									</div>
+
 					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Bio</a></p>
-					      </div>
-					    </div>
+
 					  </div>
 
 					<?php 
@@ -88,6 +96,7 @@
 				}
 			?>
 		</div>
+
 	</div>
 </section>
 

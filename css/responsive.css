@@ -21,9 +21,33 @@ XS
 		}
 
 		.optional {
-			display: hidden;
+			display: none;
 		}
 
+		.homepage.module-stage h1 {
+			font-size: 350%;
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+
+		.homepage.module-stage p.lead {
+			font-size: 140%;
+			line-height: 1.2em;
+			margin: 0;
+		}
+
+		.homepage.module-white p.lead,
+		.homepage.module-gray p.lead,
+		.homepage.module-blue p.lead {
+			font-size: 175%;
+			line-height: 1.2em;
+			margin: 0 0 20px 0;
+		}
+
+		.homepage.module-white p {
+			font-size: 116.666666666667%;
+			margin: 0 0 20px 0;
+		}
 
 }
 
@@ -36,23 +60,48 @@ SM
 */
 @media screen and (min-width: 768px) {
 	
-	section{
-  	padding:60px 0;
-	}
-
+		section{
+			padding:60px 0;
+		}
+		
 		h1 { 
 			font-size: 225%;
 		}
-
+		
 		#archive p.lead {
 			font-size: 116.666666666667%;
 		}
-
+		
 		/*Featured Image on Press Archive*/
 		#newsfeed .thumbnail img{
 			width: 150px;
 			height: auto;
 			margin: 10px 10px 10px 0;
+		}
+		
+		.homepage.module-stage h1 {
+			margin-top: 10px;
+			margin-bottom: 30px;
+		}
+
+		.homepage.module-stage p.lead {
+			font-size: 175%;
+			line-height: 1.2em;
+			margin: 0 45px;
+		}
+
+
+		.homepage.module-white p.lead,
+		.homepage.module-gray p.lead,
+		.homepage.module-blue p.lead {
+			font-size: 175%;
+			line-height: 1.2em;
+			margin: 0 20px 10px 20px;
+		}
+
+		.homepage.module-white p {
+			font-size: 125%;
+			margin: 0 50px 30px 50px;
 		}
 
 }

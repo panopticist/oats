@@ -16,25 +16,25 @@
 	
 		<div class="row photos">
 	
-		  <div class="col-xs-6 col-md-3">
+		  <div class="col-xs-6 col-sm-3">
 		
 	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-circle-1.png">
 
 		  </div>
 		  
-		  <div class="col-xs-6 col-md-3">
+		  <div class="col-xs-6 col-sm-3">
 		
 	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-circle-1.png">
 
 		  </div>
 
-		  <div class="col-xs-6 col-md-3 optional">
+		  <div class="col-xs-6 col-sm-3 optional">
 		
 	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-circle-1.png">
 
 		  </div>
 
-		  <div class="col-xs-6 col-md-3">
+		  <div class="col-xs-6 col-sm-3 optional">
 		
 	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-circle-1.png">
 

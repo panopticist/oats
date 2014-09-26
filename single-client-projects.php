@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>Work</h2>
 	</div>
@@ -14,7 +14,7 @@
 
 ?>
 
-<section id="touts-module">
+<section class="touts-module">
 <div class="container">
 
 		<div class="row">

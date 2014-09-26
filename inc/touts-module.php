@@ -1,5 +1,5 @@
 
-<section id="touts-module">
+<section class="touts-module">
 <div class="container">
 
 	<div class="row">

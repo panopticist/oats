@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>Press</h2>
 	</div>

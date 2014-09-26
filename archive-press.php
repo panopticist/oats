@@ -4,7 +4,7 @@
 
 <?php include('header.php'); ?>
 
-<section id="section-hed">
+<section class="section-hed">
 	<div class="container">
 	  <h2>Press</h2>
 	</div>
@@ -12,7 +12,7 @@
 
 
 
-<section id="archive">
+<section class="archive">
 <div class="container">
 
 	<div class="row">
@@ -49,7 +49,7 @@
 	
 	</div>
 
-	<div id="newsfeed">
+	<div class="newsfeed">
 
 
 			<?php 
