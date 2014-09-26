@@ -33,13 +33,11 @@ section {
   max-width: 960px;
 }
 
-.main,
-.archive {
+.main {
   padding-top: 0;
   padding-bottom: 30px;
 }
 
-.main,
 .archive {
   padding-top: 0;
   padding-bottom: 0;
@@ -47,7 +45,7 @@ section {
 
 h1 {
 	font-size: 300%;
-	color:#54b948;
+	color:#0061a2;
 	margin-top: 0;
 	margin-bottom: 15px;
 	padding-bottom: 0;
@@ -79,17 +77,10 @@ p a.btn-primary {
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
-	text-size: 125%;
-	letter-spacing: 0.1em;
-}
-
-.thumbnail .caption p a.btn-primary {
   background-color: transparent;
-	font-weight: 700;
-	text-transform: uppercase;
 	color:#54b948;
 	border-color:#54b948;
-	text-size: 150%;
+	text-size: 125%;
 	letter-spacing: 0.1em;
 }
 
@@ -100,7 +91,7 @@ p a.btn-primary {
 }
 
 
-/* HEADER */
+/* HEADER & NAVBAR */
 
 header {
 	padding: 25px 0;
@@ -113,8 +104,6 @@ header h1 img {
 	width:200px;
 	float: left;
 }
-
-/* NAVBAR */
 
 header ul{}
 
@@ -129,9 +118,6 @@ header ul li a:hover {
 	color: #54b948;
 }
 
-section#archive {
-	padding-top: 0;
-}
 
 /* HOMEPAGE */
 
@@ -266,6 +252,14 @@ section#archive {
   color:#0061a2;
 }
 
+.featured-image img {
+	margin: 0 0 30px 0;
+	max-width: 100%;
+  background-color: #fff;
+  padding: 6px;
+	border: 1px solid #c2c2c2;
+}
+
 .entry-content p {
   font-family: 'chaparral pro', serif;
   margin-bottom: 1.3em;
@@ -281,13 +275,8 @@ section#archive {
   color:#0061a2;
 }
 
-.thumbnail .caption .entry-summary h4 {
-	font-size: 66.666666666667%;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 1.7em;
-  margin-top: 0;
-}
+
+/* TOUT GRID FOR ARCHIVE PAGES */
 
 .tout-grid {
 	padding-top: 0;
@@ -308,7 +297,7 @@ section#archive {
 
 .tout-grid img.attachment-medium.wp-post-image {
   display: block;
-  padding: 0;
+  padding: 3px;
   max-width: 100%;
   margin-bottom: 40px;
   line-height: 1.42857143;
@@ -333,21 +322,13 @@ section#archive {
   text-transform: uppercase;
   line-height: 1.5em;
   margin-bottom: 6px;
+	color: #5e5e5e;
 }
 
 .tout-grid p {
 	color: #5e5e5e;
   margin-bottom: 20px;
   font-size: 100%;
-}
-
-
-/*Featured Image on Pages*/
-
-.featured-image img {
-	margin: 0 0 30px 0;
-	max-width: 100%;
-	border: 1px solid #c2c2c2;
 }
 
 
@@ -405,16 +386,16 @@ section#archive {
 	margin-bottom: 6px;
 }
 
-/*sidebar*/
 
-.sidebar h4 {
-	color: #54b948;
-	text-transform: uppercase;
-}
+/* SIDEBAR */
 
-/*footer*/
 
-#footer {
+
+
+
+/* FOOTER */
+
+footer {
 	min-height: 200px;
 	background-color: #5e5e5e;
 	padding-top: 40px;

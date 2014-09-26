@@ -6,6 +6,7 @@
 include_once 'functions/wp_enqueue_script.php';
 include_once 'functions/loop.php';
 include_once 'functions/team-meta.php';
+include_once 'functions/images.php';
 // include_once 'functions/kicker.php';
 include_once 'functions/post-type-homepage.php';
 include_once 'functions/post-type-section-intros.php';
