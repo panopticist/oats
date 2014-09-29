@@ -94,7 +94,7 @@ p a.btn-primary {
 /* HEADER & NAVBAR */
 
 header {
-	padding: 25px 0;
+	padding: 25px 0 0 0;
 }
 
 header h1 {}
@@ -117,6 +117,27 @@ header ul li a {
 header ul li a:hover {
 	color: #54b948;
 }
+
+img.img-responsive.logo {
+	margin-right: 20px;
+	width: 200px;
+	height: auto;
+}
+
+nav .container-fluid {
+	padding-left: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+  border-color: transparent;
+}
+
+.collapse.navbar-collapse {
+	margin-top: 20px;
+}
+
 
 
 /* HOMEPAGE */

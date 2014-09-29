@@ -9,6 +9,12 @@ XS
 			font-size: 225%;
 		}
 
+		img.img-responsive.logo {
+			margin-right: 20px;
+			width: 150px;
+			height: auto;
+		}
+		
 		#archive p.lead {
 			font-size: 116.666666666667%;
 		}
@@ -20,6 +26,10 @@ XS
 			margin: 10px 10px 10px 0;
 		}
 
+		nav .container-fluid {
+			padding-left: 15px;
+		}
+		
 		.optional {
 			display: none;
 		}
@@ -71,7 +81,7 @@ SM
 		#archive p.lead {
 			font-size: 116.666666666667%;
 		}
-		
+
 		/*Featured Image on Press Archive*/
 		#newsfeed .thumbnail img{
 			width: 150px;
