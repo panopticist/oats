@@ -7,18 +7,6 @@
 		  <div class="col-xs-12 col-md-8">
 
 		<!-- Featured Image -->
-		  	<!-- Rubric -->
-		  	<?php 
-					$rubric = get_post_type_object( get_post_type($post) );
-					$rubric = $rubric->label;
-					if ($rubric == 'Team') {
-						$rubric = get_post_meta( get_the_ID(), 'job_title', true );
-						echo '<h5>'.$rubric.'</h5>';
-					} else {
-						echo '<h5>'.$rubric.'</h5>';
-					}
-
-				?>
   			
   			<!-- Headline -->
 				<?php if ( is_singular() ) : ?>
@@ -29,11 +17,11 @@
 					</h3>
 				<?php endif; ?>
 
-		  	<div class="featured-image">
+		  	<!--<div class="featured-image">
 
 					<?php echo get_the_post_thumbnail($post->ID, 'large'); ?>
 					
-		  	</div>
+		  	</div>-->
 		  	
 				<div class="entry-content">
 					<?php the_content(); ?>

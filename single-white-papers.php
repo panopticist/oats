@@ -21,7 +21,7 @@
 	
 		  <div class="col-xs-12">
 	
-				<h4>More White Papers</h4>
+				<h6>More White Papers</h6>
 	
 		  </div>
 		

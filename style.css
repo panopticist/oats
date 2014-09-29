@@ -276,8 +276,6 @@ nav .container-fluid {
 .featured-image img {
 	margin: 0 0 30px 0;
 	max-width: 100%;
-  background-color: #fff;
-  padding: 6px;
 	border: 1px solid #c2c2c2;
 }
 
@@ -306,23 +304,22 @@ nav .container-fluid {
 	margin-bottom: 40px;
 }
 
-.tout-grid footer-module {
+.tout-grid.footer-module {
+	margin-bottom: 0;
 	padding-top: 30px;
 	padding-bottom: 20px;
   background-color: #e1e1e1;
 }
 
-.tout-grid .row {
+.row.tout-grid  {
   margin-bottom: 30px;
 }
 
 .tout-grid img.attachment-medium.wp-post-image {
   display: block;
-  padding: 3px;
   max-width: 100%;
   margin-bottom: 40px;
   line-height: 1.42857143;
-  background-color: #fff;
 	border: 1px solid #c2c2c2;
 	margin-bottom: 6px;
   border-radius: 0;
@@ -346,6 +343,13 @@ nav .container-fluid {
 	color: #5e5e5e;
 }
 
+.tout-grid.footer-module h6 {
+	font-weight:700;
+	text-transform: uppercase;
+	font-size: 150%;
+	margin-bottom: 20px;
+}
+
 .tout-grid p {
 	color: #5e5e5e;
   margin-bottom: 20px;
@@ -355,34 +359,34 @@ nav .container-fluid {
 
 /* NEWSFEED */
 
-.newsfeed .row .thumbnail img {
-	margin:0;
-	padding:0;
-	width: 100%;
-}
-
-.thumbnail img.attachment-medium.wp-post-image {
+.row.newsfeed img.attachment-medium.wp-post-image {
 	margin: 0 !important;
 	padding: 0 !important;
+	float: left;
+	border: 1px solid #c2c2c2;
+	margin-bottom: 6px;
+	margin-right: 10px;
+	max-width: 100%;
+	height: auto;
 }
 
-.archive .newsfeed .row {
-	margin-bottom: 10px;
+.row.newsfeed {
+	margin-bottom: 40px;
 }
 
-.archive .newsfeed h4.list {
+.row.newsfeed h4.list {
 	margin-top: 0;
 	font-weight: 400;
 }
 
-.newsfeed .caption h3 {
+.row.newsfeed h3 {
 	font-size: 125%;
   font-weight: 700;
   line-height: 1.3em;
   margin-top: 3px;
 }
 
-.newsfeed .caption h4 {
+.row.newsfeed h4 {
 	font-size: 77.777777777778%;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -401,11 +405,12 @@ nav .container-fluid {
   margin-bottom: 20px;
 }
 
-.press .thumbnail img {
-	float: left;
-	border: 1px solid #c2c2c2;
-	margin-bottom: 6px;
+.touts-module {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: auto;
 }
+
 
 
 /* SIDEBAR */
