@@ -6,7 +6,7 @@
 include_once 'functions/wp_enqueue_script.php';
 include_once 'functions/loop.php';
 include_once 'functions/team-meta.php';
-include_once 'functions/images.php';
+// include_once 'functions/images.php';
 // include_once 'functions/kicker.php';
 include_once 'functions/post-type-homepage.php';
 include_once 'functions/post-type-section-intros.php';
@@ -58,6 +58,16 @@ function featured_image($post){
   }
 }
 
+// Register MultiPostThumbnail plugin
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Secondary Image',
+            'id' => 'secondary-image',
+            'post_type' => 'team'
+        )
+    );
+}
 
 // Strips out the width and height
 add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10, 3 );

@@ -51,6 +51,13 @@ h1 {
 	padding-bottom: 0;
 }
 
+h3 {
+	font-size: 125%;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin: 10px 0 0 0;
+}
+
 
 h4 {
 	font-weight:700;
@@ -68,20 +75,19 @@ h5 {
 	margin-bottom: 5px;
 }
 
-.btn-primary {
-	background-color:#0061a2;
-}
-
 p a.btn-primary {
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
   background-color: transparent;
-	color:#54b948;
-	border-color:#54b948;
+	border-color:#0061a2;
 	text-size: 125%;
 	letter-spacing: 0.1em;
+}
+
+p a:hover.btn-primary {
+	background-color: #3276b1
 }
 
 .lead {
@@ -204,7 +210,8 @@ nav .container-fluid {
 }
 
 .homepage.module-blue {
-	background-color: #0061a2;
+	background: url(img/graphics/brick-texture.jpg) no-repeat center center;
+	background-size:cover;
 }
 
 .homepage.module-white p.lead {
@@ -317,7 +324,8 @@ nav .container-fluid {
 
 .tout-grid img.attachment-medium.wp-post-image {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   margin-bottom: 40px;
   line-height: 1.42857143;
 	border: 1px solid #c2c2c2;
@@ -327,11 +335,8 @@ nav .container-fluid {
           transition: all .2s ease-in-out;
 }
 
-.tout-grid h3 {
-	font-size: 125%;
-  font-weight: 700;
-  line-height: 1.3em;
-  margin-bottom: 0;
+.tout-grid.flagship-programs h3 {
+	margin-bottom: 0;
 }
 
 .tout-grid h4 {
@@ -339,7 +344,8 @@ nav .container-fluid {
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.5em;
-  margin-bottom: 6px;
+  margin-top: 3px;
+  margin-bottom: 15px;
 	color: #5e5e5e;
 }
 
@@ -354,6 +360,26 @@ nav .container-fluid {
 	color: #5e5e5e;
   margin-bottom: 20px;
   font-size: 100%;
+}
+
+.tout-grid p a.btn-primary {
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#fff;
+  background-color: #0061a2;
+	border-color:#0061a2;
+	text-size: 125%;
+	letter-spacing: 0.1em;
+	margin-bottom: 30px;
+}
+
+.tout-grid p a:hover.btn-primary {
+	color:#fff;
+	background-color: #3276b1;
+	text-size: 125%;
+	letter-spacing: 0.1em;
+	margin-bottom: 30px;
 }
 
 
@@ -383,7 +409,7 @@ nav .container-fluid {
 	font-size: 125%;
   font-weight: 700;
   line-height: 1.3em;
-  margin-top: 3px;
+  margin-top: 0;
 }
 
 .row.newsfeed h4 {
@@ -411,6 +437,12 @@ nav .container-fluid {
 	height: auto;
 }
 
+.attachment-post-thumbnail {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 3px;
+	border: 1px solid #c2c2c2;
+}
 
 
 /* SIDEBAR */
@@ -426,6 +458,19 @@ footer {
 	background-color: #5e5e5e;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+footer img.img-responsive.logo {
+	margin-right: 20px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+footer p {
+	color: #fff;
+	font-size: 75%;
 }
 
 

@@ -68,9 +68,7 @@
 
 				        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 
-				        <p class="entry-summary">
 									<?php the_excerpt(); ?>
-								</p>
 
 				        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">Learn More</a></p>
 

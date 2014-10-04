@@ -47,7 +47,7 @@
 </section>
 
 
-<section class="tout-grid">
+<section class="tout-grid flagship-programs">
 	<div class="container">
 
 		<div class="row">
