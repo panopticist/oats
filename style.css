@@ -80,14 +80,12 @@ p a.btn-primary {
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
-  background-color: transparent;
-	border-color:#0061a2;
-	text-size: 125%;
+  background-color: #0061a2;
 	letter-spacing: 0.1em;
 }
 
 p a:hover.btn-primary {
-	background-color: #3276b1
+	background-color: #3276b1;
 }
 
 .lead {
@@ -161,9 +159,11 @@ nav .container-fluid {
 
 .homepage.module-white {
 	height: auto;
-	background: url(img/graphics/background_texture.jpg);
 	padding-top: 40px;
 	padding-bottom: 0;
+	background: url(img/graphics/fpo-group-photo.jpg) no-repeat center center;
+	background-size:cover;
+	background-color: #3a8c36;
 }
 
 .homepage.module-gray, 
@@ -200,10 +200,6 @@ nav .container-fluid {
 	font-size: 175%;
 }
 
-.homepage.module-white p.lead {
-	margin: 0 0 20px 0;
-}
-
 .homepage.module-gray p.lead,
 .homepage.module-blue p.lead {
 	color: #fff;
@@ -214,16 +210,35 @@ nav .container-fluid {
 	background-size:cover;
 }
 
-.homepage.module-white p.lead {
-	color: #54b948;
+.homepage.module-white .row.photos p.lead {
+	color: #fff;
+	margin: 0 0 20px 0;
+	font-size: 225%;
 }
 
-.homepage.module-white p {
+.homepage.module-white p.blurb {
 	font-size: 150%;
-	color: #5e5e5e;
+	color: #fff;
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
 	text-align: center;
-	margin: 0 100px 30px 100px;
+	margin: 0 125px 30px 125px;
+}
+
+.homepage.module-white p.button {
+  font-size: 75%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.homepage.module-white p.button a.btn-primary {
+  background-color: #3a8c36;
+  border: 1px solid #3a8c36;
+  font-size: 100%;
+}
+
+.homepage.module-white p.button a:hover.btn-primary {
+	background-color: #54b948;
+  border: 1px solid #3a8c36;
 }
 
 

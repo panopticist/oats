@@ -59,6 +59,24 @@ XS
 			margin: 0 0 20px 0;
 		}
 
+		.homepage.module-white .row.photos p.lead {
+			margin: 0 0 30px 0;
+			font-size: 150%;
+		}
+
+		.homepage.module-white p {
+			font-size: 125%;
+			color: #5e5e5e;
+		  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+			text-align: center;
+			margin: 0 50px 30px 50px;
+		}
+
+		.homepage.module-white p.blurb {
+			font-size: 122.222222222222%;
+			margin: 0 0 20px 0;
+		}
+
 }
 
 
