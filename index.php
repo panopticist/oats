@@ -11,7 +11,7 @@
 	</div>
 </section>
 
-<section class="homepage module-white">
+<section class="homepage module-approach">
 	<div class="container">
 	
 		<div class="row photos">
@@ -61,22 +61,16 @@
 
 
 
-<section class="homepage module-gray">
+<section class="homepage module-work">
 	<div class="container">
 	
 		<div class="row">
 	
-		  <div class="col-xs-12 col-md-6">
+		  <div class="col-xs-12">
 		
-			  <p class="lead">Independent research has found OATS programs to reduce social isolation, increase access to health information, and increase technology skills and confidence.</p>
-
-		  </div>
+			  <p class="lead">We partner with an extraordinary range of institutions, from local neighborhood associations to the New York Public Library, AARP, PBS’s Next Avenue, and Aetna.</p>
 		  
-		  <div class="col-xs-12 col-md-6">
-		
-			  <p class="lead">Independent research has found OATS programs to reduce social isolation, increase access to health information, and increase technology skills and confidence.</p>
-
-		  </div>
+			  <p class="button"><a href="<?php echo get_site_url(); ?>/flagship-programs/" class="btn btn-primary btn-lg" role="button">See Our Flagship Programs</a></p>
 		  
 		</div>
 	
@@ -84,41 +78,17 @@
 </section>
 
 
-<section class="homepage module-white">
+<section class="homepage module-team">
 	<div class="container">
 
-		<div class="row photos">
-	
-			  <p class="lead">OATS brings deep experience working directly with older adults together with a passion for delivering a world-class experience for seniors.</p>
+		  <div class="col-xs-9 col-xs-offset-3 col-sm-8 col-sm-offset-4">
 
-		</div>
-	
-		<div class="row">
-	
-		  <div class="col-xs-12">
+			  <p class="lead">Our staff has deep experience working directly with older adults &#8212; and a passion for delivering a world-class experience for seniors.</p>
 		
-			  <p class="button"><a href="<?php echo get_site_url(); ?>/team/" class="btn btn-primary btn-lg" role="button">Meet the OATS Team</a></p>
+			  <p class="button"><a href="<?php echo get_site_url(); ?>/team/" class="btn btn-primary btn-lg" role="button">Meet the Team</a></p>
 		  
 		  </div>
 		  
-		</div>
-	
-	</div>
-</section>
-
-
-<section class="homepage module-blue">
-	<div class="container">
-	
-		<div class="row">
-	
-		  <div class="col-xs-12">
-		
-			  <p class="lead">OATS partners with an extraordinary range of institutions, from local neighborhood associations to the New York Public Library, AARP, PBS’s Next Avenue, and Aetna.</p>
-		  
-			  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
-		  
-		</div>
 	
 	</div>
 </section>

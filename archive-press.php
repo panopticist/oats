@@ -4,13 +4,6 @@
 
 <?php include('header.php'); ?>
 
-<section class="section-hed">
-	<div class="container">
-	  <h2>Press</h2>
-	</div>
-</section>
-
-
 
 <section class="archive">
 <div class="container">

@@ -13,7 +13,7 @@ body {
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
   font-size: 18px;
   color:#222;
-	background: url(img/graphics/background_texture.jpg);
+	background: url(img/graphics/background_texture_darker.jpg);
 }
 
 a {
@@ -34,13 +34,17 @@ section {
 }
 
 .main {
-  padding-top: 0;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .archive {
-  padding-top: 0;
+  padding-top: 30px;
   padding-bottom: 0;
+}
+
+.archive.post-type-archive {
+	padding-top: 0;
 }
 
 h1 {
@@ -98,7 +102,10 @@ p a:hover.btn-primary {
 /* HEADER & NAVBAR */
 
 header {
+	background: url(img/graphics/blue-bg-texture-new.jpg);
 	padding: 25px 0 0 0;
+	min-height: 155px;
+	border-bottom: 5px solid #fff;
 }
 
 header h1 {}
@@ -115,7 +122,7 @@ header ul li{}
 
 header ul li a {
 	font-weight: 400;
-	color:#333333;
+	color:#e1e1e1;
 }
 
 header ul li a:hover {
@@ -127,6 +134,10 @@ img.img-responsive.logo {
 	width: 200px;
 	height: auto;
 }
+
+nav {
+	background-color: #3276b1;
+	}
 
 nav .container-fluid {
 	padding-left: 0;
@@ -148,32 +159,40 @@ nav .container-fluid {
 
 .homepage .container {
   padding-top:0;
-  padding-bottom:40px;
+  padding-bottom:0;
 }
 
 .homepage.module-stage {
 	min-height: 400px;
-	background: url(img/graphics/spec-blue-1200x600.jpg) no-repeat center center;
+	background: url(img/graphics/homepage-ipad-blue.jpg);
 	background-size:cover;
+	border-bottom: 5px solid #fff;
 }
 
-.homepage.module-white {
+.homepage.module-approach {
 	height: auto;
 	padding-top: 40px;
-	padding-bottom: 0;
-	background: url(img/graphics/fpo-group-photo.jpg) no-repeat center center;
+	padding-bottom: 30px;
+	background: url(img/graphics/homepage-senior-planet-blur.jpg);
 	background-size:cover;
 	background-color: #3a8c36;
+	border-bottom: 5px solid #fff;
 }
 
-.homepage.module-gray, 
-.homepage.module-blue {
+.homepage.module-work {
 	height: auto;
-	background-color: #5e5e5e;
+	background: url(img/graphics/NYPL-homepage-blue.jpg) no-repeat center center;
 	background-size:cover;
 	margin-bottom: 0;
-	padding-top: 40px;
-	padding-bottom: 0;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	border-bottom: 5px solid #fff;
+}
+
+.homepage.module-team {
+	background: url(img/graphics/Tom-Kamber-homepage.jpg) no-repeat center center;
+	background-size:cover;
+	border-bottom: 5px solid #d7d7d7;
 }
 
 .homepage.module-stage h1 {
@@ -182,12 +201,13 @@ nav .container-fluid {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
 .homepage.module-stage p.lead,
-.homepage.module-white p.lead,
-.homepage.module-gray p.lead,
-.homepage.module-blue p.lead {
+.homepage.module-approach p.lead,
+.homepage.module-work p.lead,
+.homepage.module-team p.lead {
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
 	font-size: 225%;
 	line-height: 1.2em;
@@ -198,67 +218,93 @@ nav .container-fluid {
 .homepage.module-stage p.lead {
 	color: #fff;
 	font-size: 175%;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
-.homepage.module-gray p.lead,
-.homepage.module-blue p.lead {
+.homepage.module-work p.lead,
+.homepage.module-team p.lead {
 	color: #fff;
+	margin: 0 0 40px 0;
+	font-size: 225%;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
-.homepage.module-blue {
-	background: url(img/graphics/brick-texture.jpg) no-repeat center center;
-	background-size:cover;
-}
-
-.homepage.module-white .row.photos p.lead {
-	color: #fff;
-	margin: 0 0 20px 0;
+.homepage.module-approach .row.photos p.lead {
+	color: #54b948;
+	margin: 0 0 40px 0;
 	font-size: 225%;
 }
 
-.homepage.module-white p.blurb {
+.homepage.module-approach p.blurb {
 	font-size: 150%;
-	color: #fff;
+	color: #5e5e5e;
   font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
 	text-align: center;
 	margin: 0 125px 30px 125px;
 }
 
-.homepage.module-white p.button {
-  font-size: 75%;
+.homepage.module-approach p.button,
+.homepage.module-work p.button,
+.homepage.module-team p.button {
+  font-size: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.homepage.module-white p.button a.btn-primary {
+.homepage.module-approach p.button a.btn-primary {
   background-color: #3a8c36;
   border: 1px solid #3a8c36;
   font-size: 100%;
 }
 
-.homepage.module-white p.button a:hover.btn-primary {
+.homepage.module-approach p.button a:hover.btn-primary {
 	background-color: #54b948;
   border: 1px solid #3a8c36;
 }
 
+.homepage.module-work p.button a.btn-primary {
+	color: #fff;
+  background-color: #3777bc;
+  border: 1px solid #fff;
+  font-size: 100%;
+}
+
+.homepage.module-work p.button a:hover.btn-primary {
+	color: #0061a2;
+	background-color: #fff;
+  border: 1px solid #3777bc;
+}
+
+.homepage.module-team p.button a.btn-primary {
+  background-color: #3a8c36;
+  border: 1px solid #c2c2c2;
+  font-size: 100%;
+}
+
+.homepage.module-team p.button a:hover.btn-primary {
+	background-color: #54b948;
+  border: 1px solid #c2c2c2;
+}
 
 
 /* SECTION HEADER */
 
 .section-hed {
 	padding-top: 10px;
-	background-color:#0061a2;
-	border-top: 1px solid #5081a1;
-	border-bottom: 1px solid #5081a1;
+	background-color:none;
+	border-bottom: 1px solid #d7d7d7;
 	margin-bottom: 30px;
 	padding-bottom: 0;
 }
 
 .section-hed h2 {
-	font-weight: 700;
-	text-transform: uppercase;
-	color:#fff;
-	margin-bottom: 30px;
+  font-family: 'chaparral pro', Georgia, serif;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 250%;
+	font-style: italic;
+	color:#54b948;
+	margin-bottom: 20px;
 }
 
 
@@ -302,7 +348,7 @@ nav .container-fluid {
 }
 
 .entry-content p {
-  font-family: 'chaparral pro', serif;
+  font-family: 'chaparral pro', Georgia, serif;
   margin-bottom: 1.3em;
   color:#222;
 }
@@ -360,7 +406,7 @@ nav .container-fluid {
   text-transform: uppercase;
   line-height: 1.5em;
   margin-top: 3px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 	color: #5e5e5e;
 }
 
@@ -470,7 +516,7 @@ nav .container-fluid {
 
 footer {
 	min-height: 200px;
-	background-color: #5e5e5e;
+	background: url(img/graphics/footer-black-bg.jpg);
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -487,6 +533,27 @@ footer p {
 	color: #fff;
 	font-size: 75%;
 }
+
+footer ul {
+	padding:0;
+	margin: 0;
+}
+
+footer ul li {
+  list-style: none;
+  border-top: 1px dotted #555555;
+  padding: 6px 0;
+}
+
+footer ul li a {
+	font-weight: 400;
+	color:#66c2ff;
+}
+
+footer ul li a:hover {
+	color: #fff;
+}
+
 
 
 

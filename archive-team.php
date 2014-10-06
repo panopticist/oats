@@ -1,10 +1,10 @@
 <?php include('header.php'); ?>
 
-<section class="section-hed">
+<!--<section class="section-hed">
 	<div class="container">
 	  <h2>About</h2>
 	</div>
-</section>
+</section>-->
 
 <section class="archive">
 	<div class="container">
@@ -91,7 +91,7 @@ endif; ?></a>
 										<?php // the_excerpt(); ?>
 									</div>
 
-					        <p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Bio</a></p>
+					        <!--<p><a href="<?php the_permalink(); ?>" class="btn btn-primary" role="button">View Bio</a></p>-->
 
 					  </div>
 

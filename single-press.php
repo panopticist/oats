@@ -1,11 +1,5 @@
 <?php get_header(); ?>
 
-<section class="section-hed">
-	<div class="container">
-	  <h2>Press</h2>
-	</div>
-</section>
-
 <?php 
 	
 	// This runs the WordPress loop and pulls in the content
