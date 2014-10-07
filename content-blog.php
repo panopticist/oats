@@ -29,9 +29,9 @@
 		  </div>
 
 		  <!-- Sidebar -->
-		  <div class="col-xs-12 col-md-4">
+		  <div class="col-xs-12 col-md-4 sidebar">
 
-				<p>SIDEBAR</p>
+		    <?php include INC . 'sidebar-about.php'; ?>
 
 		  </div>
 

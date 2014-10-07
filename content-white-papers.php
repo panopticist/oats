@@ -5,7 +5,7 @@
 
 				  <div class="col-xs-12">
 		
-				  	<h5>White Paper</h5>
+				  	<h5>White Papers</h5>
 		  			
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 		

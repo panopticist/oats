@@ -59,12 +59,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		
-		 <!--<div class="utility hidden-mobile">
-			<ul>
-				<li><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a></li>
-				<li class="clear-right"><a href="<?php echo get_site_url(); ?>/donate/">Donate</a></li>
-			</ul>
-		 </div>-->
+		 <div class="utility hidden-mobile">
+			<p><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a> <a href="<?php echo get_site_url(); ?>/donate/">Donate</a></p>
+		 </div>
     
       <ul class="nav navbar-nav">
 			  <li><a href="<?php echo get_site_url(); ?>/approach/" class="main-nav">Approach</a></li>

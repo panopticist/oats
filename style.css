@@ -95,9 +95,11 @@ p a:hover.btn-primary {
 }
 
 .lead {
-  font-family: 'chaparral pro', serif;
+  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+	color: #5e5e5e;
 	line-height: 1.3em;
-	margin-bottom: 20px;
+	font-size: 150%;
+	margin-bottom: 30px;
 }
 
 
@@ -132,22 +134,26 @@ ul li a:hover {
 	color: #54b948;
 }
 
-.utility ul {
+.utility {
+	margin: 10px 0;
+	clear: right;
+}
+
+.utility p {
 	list-style: none; 
-	margin-left: 0;
-	padding-left: 0;
-	margin-right: 300px;
+	margin: 0;
+	padding: 0;
+	margin-right: 30px;
 	float: none;
 }
 
-.utility ul li a {
+.utility p a {
 	font-weight: 400;
 	color: #b7b7b7;
 	text-transform: none;
-	float: left;
-	padding: 15px;
+	margin: 0;
+	padding: 0 0 0 15px;
 	margin-right: 20px;
-	margin-top: 0;
 }
 
 .clear-right {
@@ -203,7 +209,7 @@ ul.nav.navbar-nav li ul.dropdown-menu a {
 
 .homepage.module-stage {
 	min-height: 400px;
-	background: url(img/graphics/homepage-teaching-blur.jpg) no-repeat center center;
+	background: url(img/graphics/homepage-videoconferencing-blur.jpg) no-repeat center center;
 	background-size:cover;
 	border-bottom: 5px solid #fff;
 }
@@ -304,7 +310,7 @@ img.max-width {
 	color: #fff;
 	margin: 0 0 40px 0;
 	font-size: 225%;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
 
@@ -326,8 +332,7 @@ img.max-width {
 	font-size: 225%;
 }
 
-.homepage.module-approach p.lead, 
-.homepage.module-flagship-programs p.lead {
+.homepage.module-approach p.lead {
 	color: #0061a2;
 	margin: 0;
 	padding-bottom: 0;
@@ -337,6 +342,10 @@ img.max-width {
 
 .homepage.module-flagship-programs p.lead {
 	color: #333333;
+	margin: 0;
+	padding-bottom: 0;
+	font-size: 210%;
+	margin: 0 0 30px 0;
 }
 
 .homepage.module-approach p.blurb, 
@@ -428,7 +437,7 @@ img.max-width {
 }
 
 .white-paper {
-  padding-top: 0;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -581,8 +590,8 @@ img.max-width {
 }
 
 .newsfeed h3 {
-	font-size: 125%;
-  font-weight: 400;
+	font-size: 111.111111111%;
+  font-weight: 700;
   line-height: 1.3em;
   margin-top: 0;
 }
@@ -612,7 +621,12 @@ img.max-width {
 
 /* SIDEBAR */
 
-
+.sidebar h3 {
+	color: #54b948;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
 
 
 

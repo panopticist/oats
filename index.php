@@ -89,7 +89,7 @@
 		  
 			  <div class="col-xs-12 col-sm-8">
 	
-				  <p class="lead">Our flagship programs have raised the bar in terms of what lorem ipsum dolor sit amet can do.</p>
+				  <p class="lead">Our mission is more than simply teaching seniors how to use computers. Our flagship programs empower older adults to live successful, independent, more connected lives.</p>
 			  
 				  <p class="button"><a href="<?php echo get_site_url(); ?>/flagship-programs/" class="btn btn-primary btn-lg" role="button">See Our Flagship Programs</a></p>
 			  
@@ -130,7 +130,7 @@
 	
 		  <div class="col-xs-12 col-sm-12">
 		
-			  <p class="lead">Our groundbreaking programs are covered regularly in major media outlets such as these:</p>
+			  <p class="lead">Our groundbreaking programs are covered regularly in major media outlets like these:</p>
 		  
 			</div>
 
