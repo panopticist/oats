@@ -58,7 +58,12 @@
 							
 						<div class="col-xs-12 col-sm-6 col-md-3">
 
-					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php echo get_the_post_thumbnail($post->ID, 'medium'); ?></a>
+					    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php if (class_exists('MultiPostThumbnails')) :
+    MultiPostThumbnails::the_post_thumbnail(
+        get_post_type(),
+        'secondary-image'
+    );
+endif; ?></a>
 
 				        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 

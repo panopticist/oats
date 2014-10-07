@@ -5,7 +5,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
     <meta name="keywords" content="Older Adults Technology Services (OATS)" />
-    <meta name="description" content="A member-owned cooperative in Brooklyn, New York." />
+    <meta name="description" content="OATS engages, trains and supports older adults in using technology to improve their quality of life and enhance their social and civic engagement." />
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -35,19 +35,6 @@
   <body <?php body_class(); ?>>
 
 
-
-    <!-- Facebook Widget --> 
-			  <div id="fb-root"></div>
-			<script>(function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
     <header>
       <div class="container">
         <div class="row">
@@ -71,8 +58,16 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		
+		 <!--<div class="utility hidden-mobile">
+			<ul>
+				<li><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a></li>
+				<li class="clear-right"><a href="<?php echo get_site_url(); ?>/donate/">Donate</a></li>
+			</ul>
+		 </div>-->
+    
       <ul class="nav navbar-nav">
-			  <li><a href="<?php echo get_site_url(); ?>/approach/">Approach</a></li>
+			  <li><a href="<?php echo get_site_url(); ?>/approach/" class="main-nav">Approach</a></li>
 			  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <span class="caret"></a>
 			    <ul class="dropdown-menu" role="menu">
 			      <li><a href="<?php echo get_site_url(); ?>/flagship-programs/">Flagship Programs</a></li>
@@ -90,27 +85,22 @@
 			      <li><a href="<?php echo get_site_url(); ?>/in-kind-donors/">In-Kind Donors</a></li>
 			    </ul>
 			  </li>
-			  <li><a href="<?php echo get_site_url(); ?>/press/">Press</a></li>
-			  <li><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a></li>
-			  <li><a href="<?php echo get_site_url(); ?>/donate/">Donate</a></li>
+			  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">News <span class="caret"></a>
+			    <ul class="dropdown-menu" role="menu">
+			      <li><a href="<?php echo get_site_url(); ?>/blog/">Blog</a></li>
+			      <li><a href="<?php echo get_site_url(); ?>/press/">Press</a></li>
+			    </ul>
+			  <li><a href="<?php echo get_site_url(); ?>/contact/" class="hidden-desktop">Contact Us</a></li>
+			  <li><a href="<?php echo get_site_url(); ?>/donate/" class="hidden-desktop">Donate</a></li>
+			  </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<!-- OLD PRIMARY-NAV MODULE
-
-<ul class="nav nav-pills">
-</ul>
-
- --> 
-
-
 					</div>
 				
-
-            <?php // include( INC . 'primary-nav.php' ); ?>
 
           </div>
         </div>

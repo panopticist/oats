@@ -58,13 +58,35 @@ function featured_image($post){
   }
 }
 
-// Register MultiPostThumbnail plugin
+// Register MultiPostThumbnail plugin for Team
 if (class_exists('MultiPostThumbnails')) {
     new MultiPostThumbnails(
         array(
             'label' => 'Secondary Image',
             'id' => 'secondary-image',
             'post_type' => 'team'
+        )
+    );
+}
+
+// Register MultiPostThumbnail plugin for Client Projects
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Secondary Image',
+            'id' => 'secondary-image',
+            'post_type' => 'client-projects'
+        )
+    );
+}
+
+// Register MultiPostThumbnail plugin for White Papers
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Secondary Image',
+            'id' => 'secondary-image',
+            'post_type' => 'white-papers'
         )
     );
 }

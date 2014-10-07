@@ -38,8 +38,17 @@ XS
 			padding-left: 15px;
 		}
 		
-		.optional {
+		.hidden-mobile {
 			display: none;
+		}
+
+		header ul.nav.navbar-nav li a.hidden-desktop {
+			display: block;
+			color: #fff;
+		}
+
+		.hidden-desktop {
+			display: block;
 		}
 
 		.homepage.module-stage h1 {
@@ -55,11 +64,13 @@ XS
 		}
 
 		.homepage.module-approach p.lead,
+		.homepage.module-flagship-programs p.lead,
 		.homepage.module-work p.lead,
-		.homepage.module-team p.lead {
+		.homepage.module-team p.lead, 
+		.homepage.module-press p.lead{
 			font-size: 150%;
 			line-height: 1.2em;
-			margin: 0 0 20px 0;
+			margin: 0 0 25px 0;
 		}
 
 		.homepage.module-approach p {
@@ -67,14 +78,12 @@ XS
 			margin: 0 0 20px 0;
 		}
 
-		.homepage.module-approach .row.photos p.lead {
+		.homepage.module-approach p.lead {
 			margin: 0 0 30px 0;
 			font-size: 150%;
 		}
 
-		.homepage.module-approach p.blurb,
-		.homepage.module-work p.blurb,
-		.homepage.module-team p.blurb {
+		.homepage.module-approach p.blurb {
 			font-size: 122.222222222222%;
 			margin: 0 0 20px 0;
 		}
@@ -89,7 +98,9 @@ XS
 		
 		.homepage.module-approach p.button a.btn-primary,
 		.homepage.module-work p.button a.btn-primary, 
-		.homepage.module-team p.button a.btn-primary {
+		.homepage.module-flagship-programs p.button a.btn-primary, 
+		.homepage.module-team p.button a.btn-primary, 
+		.homepage.module-press p.button a.btn-primary {
 		  font-size: 75%;
 		}
 		
@@ -108,6 +119,10 @@ XS
 			color: #0061a2;
 			background-color: #fff;
 		  border: 1px solid #3777bc;
+		}
+
+		.newsfeed img.attachment-medium.wp-post-image {
+			float: none;
 		}
 
 
@@ -165,6 +180,15 @@ SM
 			font-size: 125%;
 			margin: 0 50px 30px 50px;
 		}
+
+		.hidden-mobile {
+			display: block;
+		}
+
+		.hidden-desktop {
+			display: none;
+		}
+
 
 }
 
