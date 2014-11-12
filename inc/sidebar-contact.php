@@ -1,5 +1,5 @@
 
-				<h3>Contact Us</h3>
-				<p>Nam ac odio eros. Curabitur ligula quam, pretium sed cursus a, ultrices vitae quam. Nullam non ante sit amet massa tempor elementum quis vel ligula.</p>
+				<h3>Get in Touch</h3>
+				<p>Want to work with us? Volunteer to help? Find other ways to get involved? We’d love to hear from you!</p>
 
-			  <p class="button"><a href="<?php echo get_site_url(); ?>/contact/" class="btn btn-primary btn-lg" role="button">Contact Us</a></p>
+			  <p class="button"><a href="<?php echo get_site_url(); ?>/contact/" class="btn btn-primary" role="button">Contact Us</a></p>

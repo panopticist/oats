@@ -1,4 +1,4 @@
-<section class="white-paper">
+<section class="archive">
 	<div class="container">
 
 		<div class="row">

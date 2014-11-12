@@ -1,62 +1,46 @@
 <?php include('header.php'); ?>
 
-<section class="homepage module-stage">
-	<div class="container">
-
-		<div class="row">
-
-		  <div class="col-xs-12">
-	
-			<h1>The Practice of Change</h1>
-			<p class="lead">OATS harnesses the power of technology to change the way we age. Since 2004, we&#8217;ve innovated one of the nation&#8217;s most powerful models to shape the future of aging.</p>
-
-		  </div>
-
-		</div>
-
-	</div>
-</section>
-
 <section class="homepage module-approach">
 	<div class="container">
 
 		<div class="row">
 
-			  <div class="col-xs-12">
+			  <div class="col-xs-4 optional">
 	
-				  <p class="lead">The OATS approach begins with a strong commitment to creative and responsive program design. </p>
-			
+	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
+			  
 			  </div>
-		  
-		</div>
-		
-		<div class="row">
 
-			  <div class="col-xs-12 hidden-desktop">
+			  <div class="col-xs-4 optional">
 	
-	      <img class="max-width" src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-round.png">
+	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
 			  
 			  </div>
+
+			  <div class="col-xs-4 optional">
+	
+	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
+			  
+			  </div>
+		
+		</div>
+
+
+		<div class="row">
+	
+		  <div class="col-xs-12">
+		
+
+			<h1>The Practice of Change</h1>
+
+			  <p class="lead">OATS harnesses the power of technology to change the way we age. Since 2004, we&#8217;ve innovated one of the nation&#8217;s most powerful models to shape the future of aging.</p>
 		  
-			  <div class="col-xs-12 col-sm-8">
-	
-				  <p class="blurb">Our most important resource is the energy of older Americans themselves. We develop programs that engage seniors as change agents — in the classroom, in the community, and at home.</p>
-			  
-				  <p class="button"><a href="<?php echo get_site_url(); ?>/approach/" class="btn btn-primary btn-lg" role="button">Learn About Our Approach</a></p>
-			  
-			  </div>
-		  
-			  <div class="col-xs-12 col-sm-4 hidden-mobile">
-	
-	      <img class="max-width" src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-round.png">
-			  
-			  </div>
+		  <p class="button"><a href="<?php echo get_site_url(); ?>/approach/" class="btn btn-primary btn-lg" role="button">Learn About Our Approach</a></p>
 		  
 		</div>
 	
 	</div>
 </section>
-
 
 
 <section class="homepage module-work">
@@ -66,7 +50,7 @@
 	
 		  <div class="col-xs-12 col-sm-8 col-sm-offset-4">
 		
-			  <p class="lead">We partner with an extraordinary range of institutions, from local neighborhood associations to the New York Public Library, AARP, PBS’s Next Avenue, and Aetna.</p>
+			  <p class="lead">We partner with an extraordinary range of institutions, from local neighborhood associations to the New York Public Library, AARP Foundation, the City of New York, and Maimonides Medical Center.</p>
 		  
 			  <p class="button"><a href="<?php echo get_site_url(); ?>/client-projects/" class="btn btn-primary btn-lg" role="button">Explore Client Projects</a></p>
 		  
@@ -83,7 +67,7 @@
 
 			  <div class="col-xs-12 hidden-desktop">
 	
-	      <img class="max-width" src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-spec-circle.png">
+	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
 			  
 			  </div>
 		  
@@ -97,7 +81,7 @@
 		  
 			  <div class="col-xs-12 col-sm-4 hidden-mobile">
 	
-	      <img class="max-width" src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/person-spec-circle.png">
+	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
 			  
 			  </div>
 		  
@@ -128,50 +112,40 @@
 	
 		<div class="row">
 	
-		  <div class="col-xs-12 col-sm-12">
+		  <div class="col-xs-12 col-sm-6">
 		
-			  <p class="lead">Our groundbreaking programs are covered regularly in major media outlets like these:</p>
+			  <p class="lead">Our groundbreaking programs are covered regularly in major media outlets like these.</p>
+		  
+			  <p class="button"><a href="<?php echo get_site_url(); ?>/press/" class="btn btn-primary btn-lg" role="button">See  Press Coverage</a></p>
 		  
 			</div>
 
-		</div>
-
-		<div class="row press-logos">
-	
 		  <div class="col-xs-6 col-sm-3">
 		
-	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/Today-Show-logo.jpg" class="press-logo">
+	      <img src="/wp/wp-content/themes/oats/img/graphics/Today-Show-logo.jpg" class="press-logo">
 
 		  </div>
 
 		  <div class="col-xs-6 col-sm-3">
 		
-	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/The-Washington-Post-logo.jpg" class="press-logo">
+	      <img src="/wp/wp-content/themes/oats/img/graphics/The-Washington-Post-logo.jpg" class="press-logo">
 
 		  </div>
 		  
 		  <div class="col-xs-6 col-sm-3">
 		
-	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/WNYC-logo.jpg" class="press-logo">
+	      <img src="/wp/wp-content/themes/oats/img/graphics/WNYC-logo.jpg" class="press-logo">
 
 		  </div>
 
 		  <div class="col-xs-6 col-sm-3">
 		
-	      <img src="http://localhost:8888/wp/wp-content/themes/oats/img/graphics/USA-Today-logo.jpg" class="press-logo">
+	      <img src="/wp/wp-content/themes/oats/img/graphics/USA-Today-logo.jpg" class="press-logo">
 
 		  </div>
 		  
 		  
 		</div>
-
-		<div class="row">
-	
-		  <div class="col-xs-12 col-sm-12">
-				  
-			  <p class="button"><a href="<?php echo get_site_url(); ?>/press/" class="btn btn-primary btn-lg" role="button">See Recent Press</a></p>
-		  
-			</div>
 
 	</div>
 </section>
@@ -183,9 +157,9 @@
 	
 		  <div class="col-xs-12">
 		
-			  <p class="lead">We&#8217;d love to work with you. </p>
+			  <p class="lead">Want to work with us? Volunteer to help? Find other ways to get involved? Get in touch! </p>
 		  
-			  <p class="button"><a href="<?php echo get_site_url(); ?>/contact/" class="btn btn-primary btn-lg" role="button">Contact Us!</a></p>
+			  <p class="button"><a href="<?php echo get_site_url(); ?>/contact/" class="btn btn-primary btn-lg" role="button">Contact Us</a></p>
 		  
 			</div>
 	

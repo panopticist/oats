@@ -43,6 +43,29 @@
 	
 	</div>
 
+		<div class="row">
+
+		  <div class="col-xs-12">
+		  	<div class="featured-image">
+
+						<img src="http://dbf.7a9.myftpupload.com/wp-content/uploads/2014/10/OATS-Staff.jpg" alt="OATS Staff">
+					
+		  	</div>
+		  	
+		  </div>
+		
+		</div>
+
+		<div class="row">
+
+		  <div class="col-xs-12">
+
+					<h1>Senior Staff Bios</h1>
+					
+		  </div>
+		
+		</div>
+
 	</div>
 </section>
 

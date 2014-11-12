@@ -10,10 +10,11 @@ Author URI: http://andrewhearst.com/
 
 body {
   padding-top: 0;
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-  font-size: 18px;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color:#222;
-	background: url(img/graphics/background_texture_darker.jpg);
+	background: url(/wp/wp-content/themes/oats/img/graphics/az_subtle_blue.png);
+	margin: 0 auto;
 }
 
 a {
@@ -27,22 +28,39 @@ a:hover {
 
 section {
   padding:0;
+	margin: 0 auto;
 }
 
 .container {
   max-width: 960px;
 }
 
+.skyline {
+	height: 40px;
+	background-color: #333333;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.skyline img {
+	width: 250px;
+	height: auto;
+	margin-bottom: 10px;
+	float: left;
+}
+
 .main {
+	border-top: 1px solid #b7b7b7;
+	background-color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-top: 1px solid #c2c2c2;
 }
 
 .archive {
+	border-top: 1px solid #d7d7d7;
+	background-color: #fff;
   padding-top: 30px;
   padding-bottom: 0;
-  border-top: 1px solid #c2c2c2;
 }
 
 .archive.post-type-archive {
@@ -50,8 +68,9 @@ section {
 }
 
 h1 {
-	font-size: 300%;
-	color:#0061a2;
+  font-family: 'chaparral pro', Georgia, serif;
+	font-size: 400%;
+	color:#333333;
 	margin-top: 0;
 	margin-bottom: 15px;
 	padding-bottom: 0;
@@ -82,7 +101,7 @@ h5 {
 }
 
 p a.btn-primary {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
@@ -95,34 +114,28 @@ p a:hover.btn-primary {
 }
 
 .lead {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-	color: #5e5e5e;
+  font-family: 'chaparral pro', Georgia, serif;
+	color: #333333;
 	line-height: 1.3em;
 	font-size: 150%;
 	margin-bottom: 30px;
 }
 
+img {
+	max-width: 100%;
+}
 
 /* HEADER & NAVBAR */
 
 header {
-	background: url(img/graphics/blue-bg-texture-new.jpg);
-	padding: 25px 0 0 0;
-	min-height: 155px;
+	padding: 20px 0 0 0;
+	border-top: 1px solid #fff;
 	border-bottom: 5px solid #fff;
 }
 
-header h1 {}
-
 header h1 img {
-	margin-right: 20px;
-	width:200px;
 	float: left;
 }
-
-header ul{}
-
-header ul li{}
 
 header ul li a {
 	font-weight: 700;
@@ -156,10 +169,6 @@ ul li a:hover {
 	margin-right: 20px;
 }
 
-.clear-right {
-	clear: right;
-}
-
 header ul.nav.navbar-nav li a.hidden-desktop {
 	display: none;
 }
@@ -172,7 +181,7 @@ ul.nav.navbar-nav li a.main-nav {
 
 img.img-responsive.logo {
 	margin-right: 30px;
-	width: 200px;
+	width: 250px;
 	height: auto;
 }
 
@@ -208,10 +217,11 @@ ul.nav.navbar-nav li ul.dropdown-menu a {
 }
 
 .homepage.module-stage {
-	min-height: 400px;
-	background: url(img/graphics/homepage-videoconferencing-blur.jpg) no-repeat center center;
+	background: url(/wp/wp-content/themes/oats/img/graphics/homepage-videochat-new.jpg) no-repeat center center;
 	background-size:cover;
-	border-bottom: 5px solid #fff;
+	min-height: 600px;
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
 }
 
 .homepage.module-approach, 
@@ -219,34 +229,39 @@ ul.nav.navbar-nav li ul.dropdown-menu a {
 	height: auto;
 	padding-top: 40px;
 	padding-bottom: 50px;
-	background: url(img/graphics/background-texture-darker.jpg);
-	border-bottom: 5px solid #fff;
+	background: url(/wp/wp-content/themes/oats/img/graphics/az_subtle_darker.png);
+	border-bottom: 1px solid #fff;
+}
+
+.homepage.module-approach {
+	background: url(/wp/wp-content/themes/oats/img/graphics/senior-planet-background-light-color.jpg) no-repeat center center;
+	background-size:cover;
 }
 
 .homepage.module-work {
-	height: auto;
-	background: url(img/graphics/NYPL-homepage-blue.jpg) no-repeat center center;
+	min-height: 400px;
+	background: url(/wp/wp-content/themes/oats/img/graphics/NYPL-homepage-blue.jpg) no-repeat center center;
 	background-size:cover;
 	margin-bottom: 0;
 	padding-top: 50px;
 	padding-bottom: 40px;
-	border-bottom: 5px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 .homepage.module-team {
-	background: url(img/graphics/Tom-Kamber-homepage.jpg) no-repeat center center;
+	background: url(/wp/wp-content/themes/oats/img/graphics/Tom-Kamber-homepage.jpg) no-repeat center center;
 	background-size:cover;
-	border-bottom: 5px solid #fff;
+	border-bottom: 1px solid #fff;
+	min-height: 400px;
 }
 
 .homepage.module-press {
 	height: auto;
-	background: url(img/graphics/background-texture-darker.jpg);
-	background-size:cover;
+	background: url(/wp/wp-content/themes/oats/img/graphics/az_subtle_darker.png);
 	margin-bottom: 0;
 	padding-top: 50px;
 	padding-bottom: 40px;
-	border-bottom: 5px solid #fff;
+	border-bottom: 1px solid #fff;
 }
 
 img.press-logo {
@@ -268,48 +283,35 @@ img.max-width {
 
 .homepage.module-contact {
 	height: auto;
-	background-color: #0061a2;
+	background: url(/wp/wp-content/themes/oats/img/graphics/homepage-contact.jpg) no-repeat center center;
+	background-size:cover;
 	margin-bottom: 0;
 	padding-top: 50px;
 	padding-bottom: 40px;
 	border-bottom: 5px solid #fff;
 }
 
-.homepage.module-stage h1 {
+.homepage.module-approach h1 {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 400%;
-	color: #fff;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	color: #333333;
 	text-align: center;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+	margin: 20px 0;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
 }
 
-.homepage.module-stage p.lead,
-.homepage.module-approach p.lead,
-.homepage.module-work p.lead,
-.homepage.module-flagship-programs p.lead,
-.homepage.module-team p.lead,
-.homepage.module-press p.lead, 
-.homepage.module-contact p.lead {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-	font-size: 225%;
+.homepage p.lead {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 200%;
 	line-height: 1.2em;
 	text-align: center;
 	margin: 0 100px 30px 100px;
-}
-
-.homepage.module-stage p.lead {
-	color: #fff;
-	font-size: 175%;
-	margin: 0 100px 30px 100px;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 }
 
 .homepage.module-work p.lead,
 .homepage.module-team p.lead {
 	color: #fff;
 	margin: 0 0 40px 0;
-	font-size: 225%;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
@@ -317,115 +319,35 @@ img.max-width {
 .homepage.module-contact p.lead {
 	color: #fff;
 	margin: 0 0 40px 0;
-	font-size: 225%;
 }
 
+.homepage.module-flagship-programs p.lead, 
+.homepage.module-approach p.lead, 
 .homepage.module-press p.lead {
-	color: #0061a2;
-	margin: 0 0 40px 0;
-	font-size: 225%;
-}
-
-.homepage.module-contact p.lead {
-	color: #fff;
-	margin: 0 0 40px 0;
-	font-size: 225%;
-}
-
-.homepage.module-approach p.lead {
-	color: #0061a2;
-	margin: 0;
-	padding-bottom: 0;
-	font-size: 225%;
-	margin: 0 0 30px 0;
-}
-
-.homepage.module-flagship-programs p.lead {
 	color: #333333;
 	margin: 0;
 	padding-bottom: 0;
-	font-size: 210%;
 	margin: 0 0 30px 0;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
 }
 
-.homepage.module-approach p.blurb, 
-.homepage.module-flagship-programs p.blurb{
-	font-size: 150%;
-	color: #5e5e5e;
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-	text-align: center;
-	margin: 30px 0 30px 0;
-}
-
-.homepage.module-approach p.button,
-.homepage.module-work p.button,
-.homepage.module-flagship-programs p.button,
-.homepage.module-team p.button, 
-.homepage.module-press p.button, 
-.homepage.module-contact p.button {
+.homepage p.button {
   font-size: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.homepage.module-approach p.button a.btn-primary, 
-.homepage.module-press p.button a.btn-primary {
-  background-color: #3a8c36;
-  border: 1px solid #3a8c36;
-  font-size: 100%;
-}
-
-.homepage.module-approach p.button a:hover.btn-primary, 
-.homepage.module-press p.button a:hover.btn-primary {
-	background-color: #54b948;
-  border: 1px solid #3a8c36;
-}
-
-.homepage.module-work p.button a.btn-primary {
+.homepage p.button a.btn-primary {
 	color: #fff;
   background-color: #3777bc;
-  border: 1px solid #fff;
+  border: 1px solid #e1e1e1;
   font-size: 100%;
 }
 
-.homepage.module-work p.button a:hover.btn-primary {
-	color: #0061a2;
-	background-color: #fff;
+.homepage p.button a:hover.btn-primary {
+	background-color: #0061a2;
   border: 1px solid #3777bc;
 }
-
-.homepage.module-team p.button a.btn-primary {
-  background-color: #3a8c36;
-  border: 1px solid #c2c2c2;
-  font-size: 100%;
-}
-
-.homepage.module-team p.button a:hover.btn-primary {
-	background-color: #54b948;
-  border: 1px solid #c2c2c2;
-}
-
-
-/* SECTION HEADER */
-
-.section-hed {
-	padding-top: 10px;
-	background-color:none;
-	border-bottom: 1px solid #d7d7d7;
-	margin-bottom: 30px;
-	padding-bottom: 0;
-}
-
-.section-hed h2 {
-  font-family: 'chaparral pro', Georgia, serif;
-	font-weight: 400;
-	text-transform: none;
-	font-size: 250%;
-	font-style: italic;
-	color:#54b948;
-	margin-bottom: 20px;
-}
-
 
 .row.photos {
 	margin: 0 0 30px 0;
@@ -436,16 +358,6 @@ img.max-width {
 	height: auto;
 }
 
-.white-paper {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.white-paper h1 {
-	margin-bottom: 30px;
-}
-
-
 /* CONTENT */
 
 .entry-content {
@@ -453,11 +365,20 @@ img.max-width {
 }
 
 .entry-content h1 {
-	font-weight: 400;
-  font-size: 48px;
+  font-family: 'chaparral pro', Georgia, serif;
+	font-weight: 700;
+  font-size: 400%;
   margin-bottom: 12px;
   padding-bottom: 0;
   color:#0061a2;
+}
+
+h1.entry-title {
+	font-size: 225%;
+}
+
+.archive h1 {
+	font-size: 300%;
 }
 
 .featured-image img {
@@ -467,53 +388,85 @@ img.max-width {
 }
 
 .entry-content p {
+	font-size: 112.5%;
   font-family: 'chaparral pro', Georgia, serif;
   margin-bottom: 1.3em;
   color:#222;
 }
 
 .entry-content h2 {
-  font-size: 24px;
-  font-weight: 700;
+  font-family: 'chaparral pro', Georgia, serif;
+  font-size: 162.5%;
+  font-weight: 400;
   line-height: 1.2em;
   margin-top: 0;
   margin-bottom: 12px;
   color:#0061a2;
 }
 
-.row.columned-list {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-  margin-top: 10px;
+.row.columned-list p {
+	font-size: 87.5%;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
 }
 
-.row.columned-list p {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
-  margin-bottom: 20px;
+ul.funders {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+ul.funders li {
+	font-size: 87.5%;
+	list-style: none;
+	margin-bottom: 18px;
 }
 
 
 
 /* TOUT GRID FOR ARCHIVE PAGES */
 
+.work-feed {
+	background-color: #fff;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.work-feed img {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin: 0 20px 30px 0;
+}
+
+.work-feed h3 {
+	margin: 0 0 3px 0;
+}
+
+.work-feed p {
+	margin: 0;
+}
+
 .tout-grid {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-top: 0;
-	margin-bottom: 40px;
+	margin-bottom: 0;
+	background-color: #fff;
 }
 
 .tout-grid.footer-module {
 	margin-bottom: 0;
 	padding-top: 30px;
 	padding-bottom: 20px;
-  background-color: #e1e1e1;
+	background: url(/wp/wp-content/themes/oats/img/graphics/az_subtle_darker.png);
 }
 
 .row.tout-grid  {
   margin-bottom: 30px;
 }
 
-.tout-grid img.attachment-medium.wp-post-image {
+.tout-grid img.attachment-large.wp-post-image {
   display: block;
   width: 100%;
   height: auto;
@@ -531,13 +484,14 @@ img.max-width {
 }
 
 .tout-grid h4 {
-	font-size: 66.666666666667%;
+	font-size: 75%;
   font-weight: normal;
   text-transform: uppercase;
   line-height: 1.5em;
   margin-top: 3px;
   margin-bottom: 40px;
 	color: #5e5e5e;
+	letter-spacing: 0.05em;
 }
 
 .tout-grid.footer-module h6 {
@@ -554,7 +508,7 @@ img.max-width {
 }
 
 .tout-grid p a.btn-primary {
-  font-family: 'brandon-grotesque','Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color:#fff;
@@ -628,13 +582,28 @@ img.max-width {
 	margin: 0 0 10px 0;
 }
 
+.sidebar p {
+	font-size: 87.5%;
+	margin-bottom: 15px;
+}
+
+.sidebar p.button a.btn-primary {
+  background-color: #3a8c36;
+  border: 1px solid #3a8c36;
+}
+
+.sidebar p.button a:hover.btn-primary {
+  background-color: #54b948;
+  border: 1px solid #3a8c36;
+}
+
 
 
 /* FOOTER */
 
 footer {
+	background: url(/wp/wp-content/themes/oats/img/graphics/az_subtle_blue.png);
 	min-height: 200px;
-	background: url(img/graphics/footer-black-bg.jpg);
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -659,8 +628,9 @@ footer ul {
 
 footer ul li {
   list-style: none;
-  border-top: 1px dotted #555555;
-  padding: 6px 0;
+  border-top: 1px dotted #e1e1e1;
+  padding: 8px 0;
+	font-size: 87.5%;
 }
 
 footer ul li a {
@@ -671,8 +641,6 @@ footer ul li a {
 footer ul li a:hover {
 	color: #fff;
 }
-
-
 
 
 
