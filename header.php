@@ -36,7 +36,7 @@
       <div class="container">
         <div class="row">
 					<div class="col-xs-12">
-						<img src="/wp/wp-content/themes/oats/img/graphics/oats-tagline-white-new.png" alt="Older Adults Technology Services">
+						<img src="/wp/wp-content/themes/oats/img/graphics/oats-tagline-green.png" alt="Older Adults Technology Services">
 					</div>
         </div>
       </div>
@@ -76,6 +76,7 @@
 			    <ul class="dropdown-menu" role="menu">
 			      <li><a href="<?php echo get_site_url(); ?>/client-projects/">Client Projects</a></li>
 			      <li><a href="<?php echo get_site_url(); ?>/flagship-programs/">Flagship Programs</a></li>
+			      <li><a href="<?php echo get_site_url(); ?>/partners/">Partners</a></li>
 			      <li><a href="<?php echo get_site_url(); ?>/white-papers/">White Papers</a></li>
 			    </ul>
 			  </li>
@@ -83,7 +84,6 @@
 			    <ul class="dropdown-menu" role="menu">
 			      <li><a href="<?php echo get_site_url(); ?>/team/">Team</a></li>
 			      <li><a href="<?php echo get_site_url(); ?>/board/">Board</a></li>
-			      <li><a href="<?php echo get_site_url(); ?>/partners/">Partners</a></li>
 			      <li><a href="<?php echo get_site_url(); ?>/funders/">Funders</a></li>
 					  <li><a href="<?php echo get_site_url(); ?>/contact/">Contact Us</a></li>
 			    </ul>

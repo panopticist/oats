@@ -37,8 +37,8 @@ section {
 
 .skyline {
 	height: 40px;
-	background-color: #333333;
-	padding: 10px 0;
+	background-color: #fff;
+	padding: 12px 0 10px 0;
 	margin: 0;
 }
 
@@ -50,7 +50,6 @@ section {
 }
 
 .main {
-	border-top: 1px solid #b7b7b7;
 	background-color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -129,8 +128,6 @@ img {
 
 header {
 	padding: 20px 0 0 0;
-	border-top: 1px solid #fff;
-	border-bottom: 5px solid #fff;
 }
 
 header h1 img {

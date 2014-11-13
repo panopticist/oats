@@ -3,28 +3,6 @@
 <section class="homepage module-approach">
 	<div class="container">
 
-		<div class="row">
-
-			  <div class="col-xs-4 optional">
-	
-	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
-			  
-			  </div>
-
-			  <div class="col-xs-4 optional">
-	
-	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
-			  
-			  </div>
-
-			  <div class="col-xs-4 optional">
-	
-	      <img class="max-width" src="/wp/wp-content/themes/oats/img/graphics/person-circle-5.png">
-			  
-			  </div>
-		
-		</div>
-
 
 		<div class="row">
 	
